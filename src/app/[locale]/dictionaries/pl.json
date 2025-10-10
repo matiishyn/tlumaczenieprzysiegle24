@@ -1,0 +1,383 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "services": "Usługi",
+    "about": "O mnie",
+    "prices": "Cennik",
+    "contact": "Kontakt",
+    "faq": "FAQ",
+    "ukrainianTranslation": "Tłumaczenia ukraińskie",
+    "englishTranslation": "Tłumaczenia angielskie"
+  },
+  "hero": {
+    "title": "Tłumaczenia Przysięgłe",
+    "subtitle": "Profesjonalne tłumaczenia języka angielskiego i ukraińskiego",
+    "description": "Certyfikowany tłumacz przysięgły z wieloletnim doświadczeniem. Szybko, profesjonalnie i zgodnie z prawem.",
+    "cta": "Zapytaj o wycenę",
+    "ctaSecondary": "Zobacz cennik",
+    "trusted": "Zaufało nam ponad 1000+ klientów",
+    "experience": "10+ lat doświadczenia",
+    "certified": "Certyfikowany tłumacz przysięgły"
+  },
+  "services": {
+    "title": "Nasze Usługi",
+    "subtitle": "Profesjonalne tłumaczenia przysięgłe dokumentów",
+    "items": [
+      {
+        "name": "Akty stanu cywilnego",
+        "description": "Świadectwo urodzenia, małżeństwa, zgonu, rozwodu",
+        "price": "od 90 zł"
+      },
+      {
+        "name": "Świadectwo szkolne",
+        "description": "Świadectwo/attestat o zakończeniu szkoły",
+        "price": "od 80 zł"
+      },
+      {
+        "name": "Dodatek do świadectwa",
+        "description": "Dodatek do świadectwa/attestatu",
+        "price": "od 120 zł"
+      },
+      {
+        "name": "Dodatek do dyplomu",
+        "description": "Dodatek do dyplomu licencjata/magistra",
+        "price": "od 180 zł"
+      },
+      {
+        "name": "Apostille",
+        "description": "Poświadczenie apostille",
+        "price": "od 80 zł"
+      },
+      {
+        "name": "Zaświadczenie o kontynuacji nauki",
+        "description": "Dokument potwierdzający dalszą naukę",
+        "price": "od 100 zł"
+      },
+      {
+        "name": "Prawo jazdy",
+        "description": "Tłumaczenie prawa jazdy",
+        "price": "od 80 zł"
+      },
+      {
+        "name": "Zaświadczenie o niekaralności",
+        "description": "Dokument o braku karalności",
+        "price": "od 80 zł"
+      },
+      {
+        "name": "Karta szczepień",
+        "description": "Karta profilaktyki szczepień",
+        "price": "od 180 zł"
+      },
+      {
+        "name": "Polisa ubezpieczeniowa",
+        "description": "Tłumaczenie polisy",
+        "price": "od 80 zł"
+      },
+      {
+        "name": "Książeczka pracy",
+        "description": "Tłumaczenie książeczki pracy",
+        "price": "indywidualnie"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Języki Tłumaczeń",
+    "subtitle": "Specjalizuję się w tłumaczeniach przysięgłych",
+    "polish": "Polski",
+    "english": "Angielski",
+    "ukrainian": "Ukraiński",
+    "combinations": "Wszystkie kombinacje językowe: PL↔EN, PL↔UK, EN↔UK"
+  },
+  "about": {
+    "title": "O Mnie",
+    "subtitle": "Certyfikowany tłumacz przysięgły",
+    "description": "Jestem tłumaczem przysięgłym języka angielskiego i ukraińskiego z ponad 10-letnim doświadczeniem. Wpisana na listę tłumaczy przysięgłych prowadzoną przez Ministra Sprawiedliwości.\n\nSpecjalizuję się w tłumaczeniach dokumentów urzędowych, aktów stanu cywilnego, dokumentów edukacyjnych oraz prawnych. Gwarantuję najwyższą jakość tłumaczeń oraz terminowość realizacji zleceń.\n\nPosiadam ubezpieczenie odpowiedzialności cywilnej oraz niezbędne uprawnienia do wykonywania zawodu tłumacza przysięgłego.",
+    "credentials": "Kwalifikacje",
+    "registration": "Nr wpisu: TP/12345/2018",
+    "ministry": "Ministerstwo Sprawiedliwości",
+    "insurance": "Ubezpieczenie OC",
+    "languages_certified": "Języki uprawnień: angielski, ukraiński"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Skontaktuj się ze mną",
+    "name": "Anna Kowalska",
+    "position": "Tłumacz przysięgły języka angielskiego i ukraińskiego",
+    "email": "kontakt@tlumaczenieprzysiegle24.pl",
+    "phone": "+48 123 456 789",
+    "address": "ul. Marszałkowska 1, 00-001 Warszawa",
+    "hours": "Godziny pracy",
+    "hoursValue": "Pn-Pt: 9:00-17:00",
+    "sendMessage": "Wyślij dokumenty",
+    "getQuote": "Zapytaj o wycenę",
+    "callNow": "Zadzwoń teraz",
+    "sendWhatsApp": "Napisz na WhatsApp",
+    "description": "Zapraszam do kontaktu w celu uzyskania szczegółowej wyceny lub odpowiedzi na pytania. Dokumenty można przesyłać e-mailem lub przez komunikatory."
+  },
+  "social": {
+    "title": "Napisz do mnie",
+    "subtitle": "Dostępne przez komunikatory",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "viber": "Viber"
+  },
+  "faq": {
+    "title": "Często Zadawane Pytania",
+    "subtitle": "Odpowiedzi na najczęstsze pytania",
+    "items": [
+      {
+        "question": "Czym jest tłumaczenie przysięgłe?",
+        "answer": "Tłumaczenie przysięgłe to tłumaczenie wykonane przez tłumacza wpisanego na listę tłumaczy przysięgłych prowadzoną przez Ministra Sprawiedliwości. Takie tłumaczenie ma moc prawną i jest opatrzone pieczęcią oraz podpisem tłumacza."
+      },
+      {
+        "question": "Jak długo trwa tłumaczenie?",
+        "answer": "Standardowy czas realizacji to 2-3 dni robocze. W przypadku pilnych zleceń możliwa jest realizacja w trybie ekspresowym (24h) za dodatową opłatą."
+      },
+      {
+        "question": "Jakie dokumenty są potrzebne?",
+        "answer": "Wystarczy przesłać skan lub zdjęcie dokumentu e-mailem, przez WhatsApp lub inny komunikator. W przypadku niektórych dokumentów mogę potrzebować oryginału do wglądu."
+      },
+      {
+        "question": "Jak przesłać dokumenty?",
+        "answer": "Dokumenty można przesłać e-mailem na adres kontakt@tlumaczenieprzysiegle24.pl lub przez WhatsApp, Telegram, Viber. Akceptuję skany i zdjęcia w dobrej jakości."
+      },
+      {
+        "question": "Jakie formy płatności są dostępne?",
+        "answer": "Akceptuję przelewy bankowe, płatności BLIK oraz gotówkę przy odbiorze osobistym."
+      },
+      {
+        "question": "Jak otrzymam przetłumaczony dokument?",
+        "answer": "Gotowe tłumaczenie mogę przesłać pocztą, kurierem lub można je odebrać osobiście. Możliwa jest również wysyłka skanu e-mailem przed otrzymaniem oryginału."
+      },
+      {
+        "question": "Co to jest apostille?",
+        "answer": "Apostille to specjalne poświadczenie, które umożliwia uznanie dokumentu w krajach będących stronami Konwencji Haskiej. Poświadcza autentyczność podpisu i pieczęci na dokumencie."
+      },
+      {
+        "question": "Czy tłumaczysz również dokumenty firmowe?",
+        "answer": "Tak, tłumaczę również dokumenty firmowe, umowy, dokumenty księgowe i inne dokumenty biznesowe."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Opinie Klientów",
+    "subtitle": "Co mówią o nas klienci",
+    "items": [
+      {
+        "name": "Maria Kowalczyk",
+        "text": "Bardzo profesjonalna obsługa! Tłumaczenie dyplomu gotowe w 2 dni. Wszystko dopięte na ostatni guzik. Polecam!",
+        "rating": 5,
+        "date": "2 miesiące temu"
+      },
+      {
+        "name": "Олександр Петренко",
+        "text": "Найкраще обслуговування! Швидко переклали всі документи для візи. Дуже задоволений. Рекомендую всім українцям!",
+        "rating": 5,
+        "date": "1 miesiąc temu"
+      },
+      {
+        "name": "John Smith",
+        "text": "Excellent service! Fast turnaround time and very professional. The translation was accepted by the authorities without any issues.",
+        "rating": 5,
+        "date": "3 tygodnie temu"
+      },
+      {
+        "name": "Anna Nowak",
+        "text": "Polecam! Wszystko załatwione sprawnie i terminowo. Pani tłumacz bardzo pomocna i wyjaśniła wszystkie wątpliwości.",
+        "rating": 5,
+        "date": "1 tydzień temu"
+      }
+    ]
+  },
+  "trustIndicators": {
+    "years": "Lat doświadczenia",
+    "documents": "Przetłumaczonych dokumentów",
+    "clients": "Zadowolonych klientów",
+    "rating": "Ocena Google"
+  },
+  "footer": {
+    "description": "Profesjonalne tłumaczenia przysięgłe języka angielskiego i ukraińskiego. Certyfikowany tłumacz przysięgły wpisany na listę Ministerstwa Sprawiedliwości.",
+    "quickLinks": "Szybkie linki",
+    "legal": "Dokumenty prawne",
+    "contact": "Kontakt",
+    "followUs": "Śledź nas",
+    "privacy": "Polityka prywatności",
+    "cookies": "Polityka cookies",
+    "terms": "Regulamin",
+    "allRightsReserved": "Wszelkie prawa zastrzeżone",
+    "nip": "NIP: 123-456-78-90",
+    "regon": "REGON: 987654321"
+  },
+  "cta": {
+    "title": "Potrzebujesz tłumaczenia?",
+    "subtitle": "Skontaktuj się już dziś i otrzymaj profesjonalne tłumaczenie przysięgłe",
+    "button": "Zapytaj o wycenę"
+  },
+  "express": {
+    "title": "Express 24H",
+    "subtitle": "Pilne tłumaczenie? Zrobimy to w 24 godziny!",
+    "description": "Oferujemy usługę ekspresową dla najpilniejszych zleceń. Gwarantujemy wykonanie tłumaczenia w ciągu 24 godzin.",
+    "features": ["Dostępne 24/7", "Realizacja w 24h", "Priorytetowe traktowanie"],
+    "cta": "Zamów Express",
+    "hours": "24 godziny"
+  },
+  "recentProjects": {
+    "title": "Ostatnio Zrealizowane",
+    "subtitle": "Zobacz przykłady naszych ostatnich projektów",
+    "projects": [
+      {
+        "title": "Dyplom magistra",
+        "description": "Ukraiński dyplom magistra przetłumaczony na język polski dla celów nostryfikacji",
+        "language": "Ukraiński → Polski",
+        "time": "2 dni",
+        "type": "Edukacja"
+      },
+      {
+        "title": "Akt urodzenia",
+        "description": "Tłumaczenie aktu urodzenia z apostille dla celów uzyskania obywatelstwa",
+        "language": "Angielski → Polski",
+        "time": "1 dzień",
+        "type": "Dokumenty cywilne"
+      },
+      {
+        "title": "Umowa handlowa",
+        "description": "Kompleksowe tłumaczenie umowy handlowej dla międzynarodowej transakcji",
+        "language": "Polski → Angielski",
+        "time": "3 dni",
+        "type": "Biznes"
+      }
+    ]
+  },
+  "workingHours": {
+    "title": "Godziny pracy",
+    "status": {
+      "online": "Jesteśmy online",
+      "offline": "Obecnie offline",
+      "available": "Dostępni"
+    },
+    "schedule": "Pn-Pt: 9:00-17:00",
+    "response": "Odpowiadamy w ciągu 1 godziny"
+  },
+  "certifications": {
+    "title": "Certyfikaty i Uprawnienia",
+    "items": [
+      "Ministerstwo Sprawiedliwości",
+      "Ubezpieczenie OC",
+      "Członek stowarzyszenia tłumaczy",
+      "Ponad 10 lat doświadczenia"
+    ]
+  },
+  "payments": {
+    "title": "Akceptujemy płatności",
+    "methods": ["Przelew bankowy", "BLIK", "Gotówka", "Przelewy24"]
+  },
+  "quoteCalculator": {
+    "title": "Kalkulator Cen",
+    "subtitle": "Oblicz orientacyjny koszt tłumaczenia w kilka sekund",
+    "documentType": "Typ dokumentu",
+    "languagePair": "Para językowa",
+    "pageCount": "Liczba stron",
+    "urgency": "Pilność",
+    "estimatedPrice": "Szacowana cena",
+    "from": "od",
+    "pages": "stron",
+    "standard": "Standard",
+    "express": "Express 24H",
+    "getQuote": "Wyślij zapytanie przez WhatsApp",
+    "whatsappMessage": "Witam! Chciałbym zapytać o tłumaczenie:",
+    "documentTypes": {
+      "birth-certificate": "Akt urodzenia",
+      "marriage-certificate": "Akt małżeństwa",
+      "school-certificate": "Świadectwo szkolne",
+      "school-supplement": "Suplement do świadectwa",
+      "diploma-supplement": "Suplement do dyplomu",
+      "apostille": "Apostille",
+      "drivers-license": "Prawo jazdy",
+      "police-clearance": "Zaświadczenie o niekaralności",
+      "vaccination-card": "Karta szczepień",
+      "insurance-policy": "Polisa ubezpieczeniowa",
+      "other": "Inny dokument"
+    },
+    "languages": {
+      "uk-pl": "Ukraiński → Polski",
+      "pl-uk": "Polski → Ukraiński",
+      "en-pl": "Angielski → Polski",
+      "pl-en": "Polski → Angielski",
+      "uk-en": "Ukraiński → Angielski",
+      "en-uk": "Angielski → Ukraiński"
+    }
+  },
+  "howItWorks": {
+    "title": "Jak to działa",
+    "subtitle": "Prosty proces zamawiania tłumaczenia w kilku krokach",
+    "steps": [
+      {
+        "title": "Zamów tłumaczenie",
+        "description": "Skontaktuj się z nami przez telefon, email lub WhatsApp i opisz swoje potrzeby"
+      },
+      {
+        "title": "Wybierz pakiet",
+        "description": "Wybierz między standardowym a ekspresowym tłumaczeniem, otrzymaj wycenę"
+      },
+      {
+        "title": "Sprawdź tłumaczenie",
+        "description": "Otrzymasz profesjonalne tłumaczenie przysięgłe z pieczęcią i podpisem"
+      },
+      {
+        "title": "Potwierdź odbiór",
+        "description": "Odbierz dokument osobiście, pocztą lub otrzymaj skan emailem"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog i Poradniki",
+    "subtitle": "Przydatne informacje o tłumaczeniach przysięgłych i legalizacji dokumentów",
+    "readMore": "Czytaj więcej",
+    "posts": [
+      {
+        "title": "Jak wybrać tłumacza przysięgłego?",
+        "excerpt": "Dowiedz się, na co zwrócić uwagę przy wyborze tłumacza przysięgłego. Sprawdź uprawnienia, doświadczenie i opinie klientów.",
+        "date": "15 stycznia 2025",
+        "readTime": "5 min",
+        "category": "Poradniki"
+      },
+      {
+        "title": "Różnica między tłumaczeniem zwykłym a przysięgłym",
+        "excerpt": "Poznaj kluczowe różnice między tłumaczeniem zwykłym a przysięgłym. Kiedy potrzebujesz tłumaczenia przysięgłego?",
+        "date": "10 stycznia 2025",
+        "readTime": "4 min",
+        "category": "Prawo"
+      },
+      {
+        "title": "Dokumenty potrzebne do legalizacji pobytu w Polsce",
+        "excerpt": "Kompleksowy przewodnik po dokumentach wymaganych do legalizacji pobytu w Polsce dla obywateli Ukrainy i innych krajów.",
+        "date": "5 stycznia 2025",
+        "readTime": "8 min",
+        "category": "Legalizacja"
+      },
+      {
+        "title": "Apostille vs legalizacja konsularna",
+        "excerpt": "Czym różni się apostille od legalizacji konsularnej? Dowiedz się, która procedura jest odpowiednia dla Twoich dokumentów.",
+        "date": "1 stycznia 2025",
+        "readTime": "6 min",
+        "category": "Prawo"
+      },
+      {
+        "title": "Tłumaczenie dokumentów ukraińskich - co musisz wiedzieć",
+        "excerpt": "Wszystko o tłumaczeniu dokumentów ukraińskich w Polsce: wymagania, procedury i najczęstsze pytania.",
+        "date": "28 grudnia 2024",
+        "readTime": "7 min",
+        "category": "Ukraina"
+      },
+      {
+        "title": "Nostryfikacja dyplomu w Polsce - krok po kroku",
+        "excerpt": "Przewodnik po procesie nostryfikacji dyplomu zagranicznego w Polsce. Wymagane dokumenty i procedura krok po kroku.",
+        "date": "20 grudnia 2024",
+        "readTime": "10 min",
+        "category": "Edukacja"
+      }
+    ]
+  }
+}
+

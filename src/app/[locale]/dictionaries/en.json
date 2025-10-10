@@ -1,0 +1,383 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "prices": "Pricing",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "ukrainianTranslation": "Ukrainian Translation",
+    "englishTranslation": "English Translation"
+  },
+  "hero": {
+    "title": "Sworn Translation Services",
+    "subtitle": "Professional English and Ukrainian Translation",
+    "description": "Certified sworn translator with years of experience. Fast, professional and legally compliant.",
+    "cta": "Request a Quote",
+    "ctaSecondary": "View Pricing",
+    "trusted": "Trusted by over 1000+ clients",
+    "experience": "10+ years of experience",
+    "certified": "Certified Sworn Translator"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional sworn document translation",
+    "items": [
+      {
+        "name": "Civil Status Documents",
+        "description": "Birth certificate, marriage, death, divorce certificate",
+        "price": "from 90 PLN"
+      },
+      {
+        "name": "School Certificate",
+        "description": "School leaving certificate/attestation",
+        "price": "from 80 PLN"
+      },
+      {
+        "name": "Certificate Supplement",
+        "description": "Supplement to school certificate/attestation",
+        "price": "from 120 PLN"
+      },
+      {
+        "name": "Diploma Supplement",
+        "description": "Bachelor's/Master's degree supplement",
+        "price": "from 180 PLN"
+      },
+      {
+        "name": "Apostille",
+        "description": "Apostille certification",
+        "price": "from 80 PLN"
+      },
+      {
+        "name": "Certificate of Continued Education",
+        "description": "Document confirming continued studies",
+        "price": "from 100 PLN"
+      },
+      {
+        "name": "Driver's License",
+        "description": "Driver's license translation",
+        "price": "from 80 PLN"
+      },
+      {
+        "name": "Certificate of No Criminal Record",
+        "description": "Criminal background check document",
+        "price": "from 80 PLN"
+      },
+      {
+        "name": "Vaccination Card",
+        "description": "Preventive vaccination card",
+        "price": "from 180 PLN"
+      },
+      {
+        "name": "Insurance Policy",
+        "description": "Insurance policy translation",
+        "price": "from 80 PLN"
+      },
+      {
+        "name": "Work Record Book",
+        "description": "Employment record book translation",
+        "price": "individual pricing"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Translation Languages",
+    "subtitle": "Specialized in sworn translations",
+    "polish": "Polish",
+    "english": "English",
+    "ukrainian": "Ukrainian",
+    "combinations": "All language combinations: PL↔EN, PL↔UK, EN↔UK"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Certified Sworn Translator",
+    "description": "I am a sworn translator of English and Ukrainian with over 10 years of experience. Registered on the list of sworn translators maintained by the Minister of Justice.\n\nI specialize in translations of official documents, civil status certificates, educational and legal documents. I guarantee the highest quality of translations and timely execution of orders.\n\nI have professional liability insurance and all necessary qualifications to practice as a sworn translator.",
+    "credentials": "Qualifications",
+    "registration": "Registration No: TP/12345/2018",
+    "ministry": "Ministry of Justice",
+    "insurance": "Liability Insurance",
+    "languages_certified": "Certified languages: English, Ukrainian"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch",
+    "name": "Anna Kowalska",
+    "position": "Sworn Translator of English and Ukrainian",
+    "email": "kontakt@tlumaczenieprzysiegle24.pl",
+    "phone": "+48 123 456 789",
+    "address": "ul. Marszałkowska 1, 00-001 Warsaw",
+    "hours": "Business Hours",
+    "hoursValue": "Mon-Fri: 9:00-17:00",
+    "sendMessage": "Send Documents",
+    "getQuote": "Request a Quote",
+    "callNow": "Call Now",
+    "sendWhatsApp": "WhatsApp Message",
+    "description": "Feel free to contact me for a detailed quote or to answer any questions. Documents can be sent by email or messengers."
+  },
+  "social": {
+    "title": "Message Me",
+    "subtitle": "Available via messengers",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "viber": "Viber"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to common questions",
+    "items": [
+      {
+        "question": "What is a sworn translation?",
+        "answer": "A sworn translation is a translation performed by a translator registered on the list of sworn translators maintained by the Minister of Justice. Such translation has legal force and is stamped and signed by the translator."
+      },
+      {
+        "question": "How long does translation take?",
+        "answer": "Standard delivery time is 2-3 business days. For urgent orders, express service (24h) is available for an additional fee."
+      },
+      {
+        "question": "What documents are needed?",
+        "answer": "Simply send a scan or photo of the document by email, WhatsApp or other messenger. For some documents, I may need to see the original."
+      },
+      {
+        "question": "How to send documents?",
+        "answer": "Documents can be sent by email to kontakt@tlumaczenieprzysiegle24.pl or via WhatsApp, Telegram, Viber. I accept scans and good quality photos."
+      },
+      {
+        "question": "What payment methods are available?",
+        "answer": "I accept bank transfers, BLIK payments and cash for personal pickup."
+      },
+      {
+        "question": "How will I receive the translated document?",
+        "answer": "The finished translation can be sent by post, courier or picked up in person. It is also possible to send a scan by email before receiving the original."
+      },
+      {
+        "question": "What is an apostille?",
+        "answer": "An apostille is a special certification that allows a document to be recognized in countries that are parties to the Hague Convention. It authenticates the signature and seal on the document."
+      },
+      {
+        "question": "Do you also translate business documents?",
+        "answer": "Yes, I also translate business documents, contracts, accounting documents and other business documents."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Client Reviews",
+    "subtitle": "What our clients say",
+    "items": [
+      {
+        "name": "Maria Kowalczyk",
+        "text": "Very professional service! Diploma translation ready in 2 days. Everything perfect. Highly recommend!",
+        "rating": 5,
+        "date": "2 months ago"
+      },
+      {
+        "name": "Oleksandr Petrenko",
+        "text": "Best service! Quickly translated all documents for visa. Very satisfied. Recommend to all Ukrainians!",
+        "rating": 5,
+        "date": "1 month ago"
+      },
+      {
+        "name": "John Smith",
+        "text": "Excellent service! Fast turnaround time and very professional. The translation was accepted by the authorities without any issues.",
+        "rating": 5,
+        "date": "3 weeks ago"
+      },
+      {
+        "name": "Anna Nowak",
+        "text": "Highly recommend! Everything handled efficiently and on time. The translator was very helpful and explained all doubts.",
+        "rating": 5,
+        "date": "1 week ago"
+      }
+    ]
+  },
+  "trustIndicators": {
+    "years": "Years of Experience",
+    "documents": "Documents Translated",
+    "clients": "Happy Clients",
+    "rating": "Google Rating"
+  },
+  "footer": {
+    "description": "Professional sworn translation services for English and Ukrainian. Certified sworn translator registered with the Ministry of Justice.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal Documents",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "terms": "Terms of Service",
+    "allRightsReserved": "All rights reserved",
+    "nip": "Tax ID: 123-456-78-90",
+    "regon": "REGON: 987654321"
+  },
+  "cta": {
+    "title": "Need a Translation?",
+    "subtitle": "Contact us today and get professional sworn translation",
+    "button": "Request a Quote"
+  },
+  "express": {
+    "title": "Express 24H",
+    "subtitle": "Urgent translation? We'll do it in 24 hours!",
+    "description": "We offer express service for the most urgent orders. We guarantee translation completion within 24 hours.",
+    "features": ["Available 24/7", "24h delivery", "Priority treatment"],
+    "cta": "Order Express",
+    "hours": "24 hours"
+  },
+  "recentProjects": {
+    "title": "Recently Completed",
+    "subtitle": "See examples of our recent projects",
+    "projects": [
+      {
+        "title": "Master's Diploma",
+        "description": "Ukrainian master's diploma translated to Polish for recognition purposes",
+        "language": "Ukrainian → Polish",
+        "time": "2 days",
+        "type": "Education"
+      },
+      {
+        "title": "Birth Certificate",
+        "description": "Birth certificate translation with apostille for citizenship purposes",
+        "language": "English → Polish",
+        "time": "1 day",
+        "type": "Civil documents"
+      },
+      {
+        "title": "Commercial Agreement",
+        "description": "Comprehensive translation of commercial agreement for international transaction",
+        "language": "Polish → English",
+        "time": "3 days",
+        "type": "Business"
+      }
+    ]
+  },
+  "workingHours": {
+    "title": "Working Hours",
+    "status": {
+      "online": "We're online",
+      "offline": "Currently offline",
+      "available": "Available"
+    },
+    "schedule": "Mon-Fri: 9:00-17:00",
+    "response": "We respond within 1 hour"
+  },
+  "certifications": {
+    "title": "Certifications and Qualifications",
+    "items": [
+      "Ministry of Justice",
+      "Liability Insurance",
+      "Translator Association Member",
+      "Over 10 years experience"
+    ]
+  },
+  "payments": {
+    "title": "We accept payments",
+    "methods": ["Bank transfer", "BLIK", "Cash", "Przelewy24"]
+  },
+  "quoteCalculator": {
+    "title": "Price Calculator",
+    "subtitle": "Calculate the estimated cost of translation in seconds",
+    "documentType": "Document type",
+    "languagePair": "Language pair",
+    "pageCount": "Number of pages",
+    "urgency": "Urgency",
+    "estimatedPrice": "Estimated price",
+    "from": "from",
+    "pages": "pages",
+    "standard": "Standard",
+    "express": "Express 24H",
+    "getQuote": "Send inquiry via WhatsApp",
+    "whatsappMessage": "Hello! I would like to inquire about translation:",
+    "documentTypes": {
+      "birth-certificate": "Birth certificate",
+      "marriage-certificate": "Marriage certificate",
+      "school-certificate": "School certificate",
+      "school-supplement": "Certificate supplement",
+      "diploma-supplement": "Diploma supplement",
+      "apostille": "Apostille",
+      "drivers-license": "Driver's license",
+      "police-clearance": "Police clearance certificate",
+      "vaccination-card": "Vaccination card",
+      "insurance-policy": "Insurance policy",
+      "other": "Other document"
+    },
+    "languages": {
+      "uk-pl": "Ukrainian → Polish",
+      "pl-uk": "Polish → Ukrainian",
+      "en-pl": "English → Polish",
+      "pl-en": "Polish → English",
+      "uk-en": "Ukrainian → English",
+      "en-uk": "English → Ukrainian"
+    }
+  },
+  "howItWorks": {
+    "title": "How it Works",
+    "subtitle": "Simple translation ordering process in just a few steps",
+    "steps": [
+      {
+        "title": "Order Translation",
+        "description": "Contact us via phone, email or WhatsApp and describe your needs"
+      },
+      {
+        "title": "Choose Package",
+        "description": "Choose between standard and express translation, get a quote"
+      },
+      {
+        "title": "Check Translation",
+        "description": "Receive professional sworn translation with seal and signature"
+      },
+      {
+        "title": "Confirm Delivery",
+        "description": "Pick up in person, by mail or receive scan via email"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog & Guides",
+    "subtitle": "Useful information about sworn translations and document legalization",
+    "readMore": "Read more",
+    "posts": [
+      {
+        "title": "How to choose a sworn translator?",
+        "excerpt": "Learn what to look for when choosing a sworn translator. Check credentials, experience and client reviews.",
+        "date": "January 15, 2025",
+        "readTime": "5 min",
+        "category": "Guides"
+      },
+      {
+        "title": "Difference between regular and sworn translation",
+        "excerpt": "Understand the key differences between regular and sworn translation. When do you need a sworn translation?",
+        "date": "January 10, 2025",
+        "readTime": "4 min",
+        "category": "Legal"
+      },
+      {
+        "title": "Documents needed for residence legalization in Poland",
+        "excerpt": "Comprehensive guide to documents required for residence legalization in Poland for Ukrainian and other citizens.",
+        "date": "January 5, 2025",
+        "readTime": "8 min",
+        "category": "Legalization"
+      },
+      {
+        "title": "Apostille vs consular legalization",
+        "excerpt": "What's the difference between apostille and consular legalization? Find out which procedure is right for your documents.",
+        "date": "January 1, 2025",
+        "readTime": "6 min",
+        "category": "Legal"
+      },
+      {
+        "title": "Translating Ukrainian documents - what you need to know",
+        "excerpt": "Everything about translating Ukrainian documents in Poland: requirements, procedures and FAQs.",
+        "date": "December 28, 2024",
+        "readTime": "7 min",
+        "category": "Ukraine"
+      },
+      {
+        "title": "Diploma recognition in Poland - step by step",
+        "excerpt": "Guide to the process of foreign diploma recognition in Poland. Required documents and step-by-step procedure.",
+        "date": "December 20, 2024",
+        "readTime": "10 min",
+        "category": "Education"
+      }
+    ]
+  }
+}
+
