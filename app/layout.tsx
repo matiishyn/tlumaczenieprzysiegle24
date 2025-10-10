@@ -1,9 +1,9 @@
-import './globals.css';
+import { Analytics } from '@/components/analytics';
+import { OrganizationSchema, PersonSchema } from '@/components/structured-data';
+import { siteConfig } from '@/config/site';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { siteConfig } from '@/config/site';
-import { OrganizationSchema, PersonSchema } from '@/components/structured-data';
-import { Analytics } from '@/components/analytics';
+import './globals.css';
 
 const inter = Inter({ subsets: ['latin', 'latin-ext'] });
 
