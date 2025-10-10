@@ -6,6 +6,7 @@ import { Locale } from '@/config/locales';
 import { siteConfig } from '@/config/site';
 import { getLocalePath } from '@/lib/i18n';
 import { Mail, Menu, Phone, X } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -30,10 +31,15 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
         <div className="flex h-16 items-center justify-between">
           <Link
             href={getLocalePath(locale, '/')}
-            className="flex items-center space-x-2">
-            <span className="text-xl font-bold text-slate-900">
-              {siteConfig.business.name}
-            </span>
+            className="flex items-center">
+            <Image
+              src="/logo.svg"
+              alt={siteConfig.business.name}
+              width={155}
+              height={47}
+              priority
+              className="h-8 w-auto"
+            />
           </Link>
 
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
