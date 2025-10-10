@@ -40,6 +40,66 @@ export function OrganizationSchema() {
     serviceType: 'Tłumaczenia przysięgłe',
     description:
       'Profesjonalne tłumaczenia przysięgłe w Krakowie. Certyfikowany tłumacz z wpisu MS. Języki: ukraiński, angielski. Szybka realizacja 24-48h.',
+    sameAs: [
+      // Add social media profiles when available
+    ],
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Usługi tłumaczeniowe',
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Tłumaczenia na język ukraiński',
+            description: 'Profesjonalne tłumaczenia przysięgłe z języka polskiego na ukraiński',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Tłumaczenia na język angielski',
+            description: 'Profesjonalne tłumaczenia przysięgłe z języka polskiego na angielski',
+          },
+        },
+      ],
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function PersonSchema() {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: siteConfig.business.name,
+    jobTitle: 'Tłumacz przysięgły',
+    worksFor: {
+      '@type': 'Organization',
+      name: siteConfig.business.name,
+    },
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: siteConfig.business.address.street,
+      addressLocality: siteConfig.business.address.city,
+      postalCode: siteConfig.business.address.postalCode,
+      addressCountry: 'PL',
+    },
+    telephone: siteConfig.business.phone,
+    email: siteConfig.business.email,
+    knowsLanguage: ['Polish', 'Ukrainian', 'English'],
+    hasCredential: {
+      '@type': 'EducationalOccupationalCredential',
+      name: 'Wpis na liście tłumaczy przysięgłych Ministerstwa Sprawiedliwości',
+      credentialCategory: 'Professional Certification',
+    },
   };
 
   return (
@@ -82,6 +142,50 @@ export function FAQSchema({ faqs }: { faqs: { q: string; a: string }[] }) {
         text: faq.a,
       },
     })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function ServiceSchema({ 
+  name, 
+  description, 
+  price, 
+  url 
+}: { 
+  name: string; 
+  description: string; 
+  price?: string; 
+  url: string; 
+}) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name,
+    description,
+    provider: {
+      '@type': 'Organization',
+      name: siteConfig.business.name,
+      url: siteConfig.urls.domain,
+    },
+    areaServed: {
+      '@type': 'City',
+      name: 'Kraków',
+    },
+    ...(price && {
+      offers: {
+        '@type': 'Offer',
+        price,
+        priceCurrency: 'PLN',
+        availability: 'https://schema.org/InStock',
+      },
+    }),
+    url,
   };
 
   return (

@@ -2,6 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { siteConfig } from '@/config/site';
+import { OrganizationSchema, PersonSchema } from '@/components/structured-data';
+import { Analytics } from '@/components/analytics';
 
 const inter = Inter({ subsets: ['latin', 'latin-ext'] });
 
@@ -30,6 +32,14 @@ export const metadata: Metadata = {
     title: siteConfig.seo.mainKeyword,
     description:
       'Profesjonalne tłumaczenia przysięgłe w Krakowie. Certyfikowany tłumacz z wpisu MS. Szybka realizacja 24-48h.',
+    images: [
+      {
+        url: `${siteConfig.urls.domain}/og?title=${encodeURIComponent(siteConfig.seo.mainKeyword)}&description=${encodeURIComponent('Profesjonalne tłumaczenia przysięgłe w Krakowie')}`,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.seo.mainKeyword,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -50,6 +60,9 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="en" href={`${siteConfig.urls.domain}/en`} />
         <link rel="alternate" hrefLang="uk" href={`${siteConfig.urls.domain}/uk`} />
         <link rel="alternate" hrefLang="x-default" href={siteConfig.urls.domain} />
+        <OrganizationSchema />
+        <PersonSchema />
+        <Analytics />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
