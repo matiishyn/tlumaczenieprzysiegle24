@@ -21,7 +21,7 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
     { href: getLocalePath(locale, locale === 'pl' ? '/uslugi' : locale === 'en' ? '/services' : '/posluhy'), label: t.nav.services },
     { href: getLocalePath(locale, locale === 'pl' ? '/cennik' : locale === 'en' ? '/pricing' : '/tsiny'), label: t.nav.pricing },
     { href: getLocalePath(locale, locale === 'pl' ? '/o-mnie' : locale === 'en' ? '/about' : '/pro-mene'), label: t.nav.about },
-    { href: getLocalePath(locale, locale === 'pl' ? '/kontakt' : '/contact'), label: t.nav.contact },
+    { href: getLocalePath(locale, locale === 'pl' ? '/kontakt' : locale === 'en' ? '/contact' : '/kontakt'), label: t.nav.contact },
   ];
 
   return (
