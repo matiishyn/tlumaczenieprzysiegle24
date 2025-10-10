@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Clock, Award, FileCheck } from 'lucide-react';
+import { ArrowRight, Award, Clock, FileCheck } from 'lucide-react';
+import Image from 'next/image';
 
 interface HeroSectionProps {
   t: any;
@@ -79,12 +80,15 @@ export function HeroSection({ t, locale }: HeroSectionProps) {
           </div>
 
           <div className="relative">
-            <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-blue-100 to-slate-200 flex items-center justify-center">
-              <div className="text-center p-8">
-                <p className="text-slate-500 text-sm">
-                  {locale === 'pl' ? 'Zdjęcie w przygotowaniu' : locale === 'en' ? 'Photo placeholder' : 'Фото у розробці'}
-                </p>
-              </div>
+            <div className="aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image
+                src="/2.png"
+                alt={locale === 'pl' ? 'Profesjonalne spotkanie w biurze' : locale === 'en' ? 'Professional office meeting' : 'Професійна зустріч в офісі'}
+                fill
+                className="object-cover"
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
             </div>
           </div>
         </div>

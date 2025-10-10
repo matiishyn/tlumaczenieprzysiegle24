@@ -5,6 +5,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Locale } from '@/config/locales';
 import { siteConfig } from '@/config/site';
 import { Award, BookOpen, Clock, Shield } from 'lucide-react';
+import Image from 'next/image';
 
 interface AboutPageProps {
   locale: Locale;
@@ -25,14 +26,14 @@ export function AboutPage({ locale, t }: AboutPageProps) {
 
               <div className="grid md:grid-cols-3 gap-8 mb-12">
                 <div className="md:col-span-1">
-                  <div className="aspect-square rounded-2xl bg-gradient-to-br from-blue-100 to-slate-200 flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <p className="text-slate-500 text-sm">
-                        {locale === 'pl' ? 'Zdjęcie tłumacza' :
-                          locale === 'en' ? 'Translator photo' :
-                            'Фото перекладача'}
-                      </p>
-                    </div>
+                  <div className="aspect-square rounded-2xl overflow-hidden relative">
+                    <Image
+                      src="/4.png"
+                      alt={locale === 'pl' ? 'Tłumacz przysięgły przy biurku' : locale === 'en' ? 'Sworn translator at desk' : 'Присяжний перекладач за столом'}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                    />
                   </div>
                 </div>
 
