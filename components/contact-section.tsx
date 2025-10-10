@@ -205,7 +205,10 @@ export function ContactSection({ t, locale }: ContactSectionProps) {
                     className="text-sm text-slate-600 leading-tight"
                   >
                     {t.contact.form.consent}{' '}
-                    <Link href={privacyLink} className="text-blue-600 hover:underline">
+                    <Link
+                      href={privacyLink}
+                      className="text-blue-600 hover:underline"
+                      legacyBehavior>
                       {t.contact.form.privacyPolicy}
                     </Link>
                   </label>

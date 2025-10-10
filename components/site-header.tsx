@@ -29,7 +29,10 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
     <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
-          <Link href={getLocalePath(locale, '/')} className="flex items-center space-x-2">
+          <Link
+            href={getLocalePath(locale, '/')}
+            className="flex items-center space-x-2"
+            legacyBehavior>
             <span className="text-xl font-bold text-slate-900">
               {siteConfig.business.name}
             </span>
@@ -41,7 +44,7 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
                 key={link.href}
                 href={link.href}
                 className="transition-colors hover:text-slate-900 text-slate-600"
-              >
+                legacyBehavior>
                 {link.label}
               </Link>
             ))}
@@ -85,7 +88,7 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
                   href={link.href}
                   className="text-sm font-medium transition-colors hover:text-slate-900 text-slate-600"
                   onClick={() => setMobileMenuOpen(false)}
-                >
+                  legacyBehavior>
                   {link.label}
                 </Link>
               ))}

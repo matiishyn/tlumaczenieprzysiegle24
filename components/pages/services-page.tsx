@@ -111,7 +111,7 @@ export function ServicesPage({ locale, t }: ServicesPageProps) {
                       ))}
                     </ul>
                     <Button asChild className="w-full">
-                      <Link href={service.href}>
+                      <Link href={service.href} legacyBehavior>
                         {locale === 'pl' ? 'Dowiedz się więcej' :
                           locale === 'en' ? 'Learn more' :
                             'Дізнатися більше'}
@@ -206,7 +206,9 @@ export function ServicesPage({ locale, t }: ServicesPageProps) {
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <Link href={`/${locale === 'pl' ? '' : locale}${locale === 'pl' ? 'cennik' : locale === 'en' ? 'pricing' : 'tsiny'}`}>
+                  <Link
+                    href={`/${locale === 'pl' ? '' : locale}${locale === 'pl' ? 'cennik' : locale === 'en' ? 'pricing' : 'tsiny'}`}
+                    legacyBehavior>
                     {locale === 'pl' ? 'Zobacz cennik' :
                       locale === 'en' ? 'View pricing' :
                         'Переглянути ціни'}

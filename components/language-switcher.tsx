@@ -58,7 +58,7 @@ export function LanguageSwitcher() {
             <Link
               href={getLocalizedPath(locale)}
               className={currentLocale === locale ? 'font-semibold' : ''}
-            >
+              legacyBehavior>
               {localeNames[locale]}
             </Link>
           </DropdownMenuItem>
