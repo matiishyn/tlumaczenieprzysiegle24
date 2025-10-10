@@ -256,8 +256,7 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
                         {t.contact.form.consent}{' '}
                         <Link
                           href={privacyLink}
-                          className="text-blue-600 hover:underline"
-                          legacyBehavior>
+                          className="text-blue-600 hover:underline">
                           {t.contact.form.privacyPolicy}
                         </Link>
                       </label>

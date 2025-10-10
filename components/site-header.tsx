@@ -31,8 +31,7 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
         <div className="flex h-16 items-center justify-between">
           <Link
             href={getLocalePath(locale, '/')}
-            className="flex items-center space-x-2"
-            legacyBehavior>
+            className="flex items-center space-x-2">
             <span className="text-xl font-bold text-slate-900">
               {siteConfig.business.name}
             </span>
@@ -43,8 +42,7 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
               <Link
                 key={link.href}
                 href={link.href}
-                className="transition-colors hover:text-slate-900 text-slate-600"
-                legacyBehavior>
+                className="transition-colors hover:text-slate-900 text-slate-600">
                 {link.label}
               </Link>
             ))}
@@ -87,8 +85,7 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
                   key={link.href}
                   href={link.href}
                   className="text-sm font-medium transition-colors hover:text-slate-900 text-slate-600"
-                  onClick={() => setMobileMenuOpen(false)}
-                  legacyBehavior>
+                  onClick={() => setMobileMenuOpen(false)}>
                   {link.label}
                 </Link>
               ))}

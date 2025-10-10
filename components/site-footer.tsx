@@ -54,8 +54,7 @@ export function SiteFooter({ locale, t }: SiteFooterProps) {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="hover:text-white transition-colors"
-                    legacyBehavior>
+                    className="hover:text-white transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -70,8 +69,7 @@ export function SiteFooter({ locale, t }: SiteFooterProps) {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="hover:text-white transition-colors"
-                    legacyBehavior>
+                    className="hover:text-white transition-colors">
                     {link.label}
                   </Link>
                 </li>

@@ -64,7 +64,7 @@ export function ServicesSection({ t, locale }: ServicesSectionProps) {
               </CardHeader>
               <CardContent>
                 <Button asChild variant="outline" className="w-full">
-                  <Link href={service.href} legacyBehavior>
+                  <Link href={service.href}>
                     {t.common.readMore}
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>

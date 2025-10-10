@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Award, Clock, FileCheck } from 'lucide-react';
-import Image from 'next/image';
+import Image from "next/image";
 
 interface HeroSectionProps {
   t: any;

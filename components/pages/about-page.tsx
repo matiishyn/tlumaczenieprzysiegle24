@@ -5,7 +5,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Locale } from '@/config/locales';
 import { siteConfig } from '@/config/site';
 import { Award, BookOpen, Clock, Shield } from 'lucide-react';
-import Image from 'next/image';
+import Image from "next/image";
 
 interface AboutPageProps {
   locale: Locale;

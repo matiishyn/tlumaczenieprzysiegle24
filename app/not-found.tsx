@@ -15,7 +15,7 @@ export default function NotFound() {
         </p>
         <div className="flex justify-center">
           <Button asChild>
-            <Link href="/" legacyBehavior>
+            <Link href="/">
               <Home className="mr-2 h-4 w-4" />
               Strona główna
             </Link>
