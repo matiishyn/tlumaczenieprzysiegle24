@@ -60,6 +60,8 @@ Update this file with real data before deployment.
    ```bash
    npm install
    ```
+   
+   **Note**: If you encounter peer dependency conflicts with React 19, the project includes a `.npmrc` file with `legacy-peer-deps=true` to resolve compatibility issues with packages that haven't updated their peer dependencies yet.
 
 2. Update configuration in `config/site.ts` with real business data
 

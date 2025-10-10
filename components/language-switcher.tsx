@@ -12,6 +12,12 @@ import { Globe } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
+const localeFlags: Record<Locale, string> = {
+  pl: '🇵🇱',
+  en: '🇬🇧',
+  uk: '🇺🇦',
+};
+
 export function LanguageSwitcher() {
   const pathname = usePathname();
 
@@ -47,7 +53,7 @@ export function LanguageSwitcher() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="sm" className="gap-2">
-          <Globe className="h-4 w-4" />
+          <span className="text-lg">{localeFlags[currentLocale]}</span>
           <span className="hidden sm:inline">{localeNames[currentLocale]}</span>
           <span className="sm:hidden">{currentLocale.toUpperCase()}</span>
         </Button>
@@ -57,7 +63,8 @@ export function LanguageSwitcher() {
           <DropdownMenuItem key={locale} asChild>
             <Link
               href={getLocalizedPath(locale)}
-              className={currentLocale === locale ? 'font-semibold' : ''}>
+              className={`flex items-center gap-2 ${currentLocale === locale ? 'font-semibold' : ''}`}>
+              <span className="text-lg">{localeFlags[locale]}</span>
               {localeNames[locale]}
             </Link>
           </DropdownMenuItem>
