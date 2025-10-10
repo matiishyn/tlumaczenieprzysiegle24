@@ -18,7 +18,6 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: getLocalePath(locale, '/'), label: t.nav.home },
     { href: getLocalePath(locale, locale === 'pl' ? '/uslugi' : locale === 'en' ? '/services' : '/posluhy'), label: t.nav.services },
     { href: getLocalePath(locale, locale === 'pl' ? '/cennik' : locale === 'en' ? '/pricing' : '/tsiny'), label: t.nav.pricing },
     { href: getLocalePath(locale, locale === 'pl' ? '/o-mnie' : locale === 'en' ? '/about' : '/pro-mene'), label: t.nav.about },
