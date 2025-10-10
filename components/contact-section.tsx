@@ -1,17 +1,17 @@
 'use client';
 
-import { useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Checkbox } from '@/components/ui/checkbox';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Checkbox } from '@/components/ui/checkbox';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
-import { siteConfig } from '@/config/site';
 import { Locale } from '@/config/locales';
+import { siteConfig } from '@/config/site';
 import { getLocalePath } from '@/lib/i18n';
+import { Clock, Mail, MapPin, Phone } from 'lucide-react';
 import Link from 'next/link';
+import { useState } from 'react';
 
 interface ContactSectionProps {
   t: any;
@@ -36,8 +36,8 @@ export function ContactSection({ t, locale }: ContactSectionProps) {
     locale === 'pl'
       ? '/polityka-prywatnosci'
       : locale === 'en'
-      ? '/privacy-policy'
-      : '/polityka-pryvatnosti'
+        ? '/privacy-policy'
+        : '/polityka-pryvatnosti'
   );
 
   return (
@@ -135,8 +135,8 @@ export function ContactSection({ t, locale }: ContactSectionProps) {
                 {locale === 'pl'
                   ? 'Skontaktuj się z nami, odpowiemy najszybciej jak to możliwe'
                   : locale === 'en'
-                  ? 'Contact us, we will respond as soon as possible'
-                  : "Зв'яжіться з нами, ми відповімо якнайшвидше"}
+                    ? 'Contact us, we will respond as soon as possible'
+                    : "Зв'яжіться з нами, ми відповімо якнайшвидше"}
               </CardDescription>
             </CardHeader>
             <CardContent>

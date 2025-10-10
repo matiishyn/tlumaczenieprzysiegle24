@@ -1,16 +1,16 @@
 'use client';
 
-import { useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Checkbox } from '@/components/ui/checkbox';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Checkbox } from '@/components/ui/checkbox';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Upload, FileText } from 'lucide-react';
 import { Locale } from '@/config/locales';
 import { getLocalePath } from '@/lib/i18n';
+import { FileText, Upload } from 'lucide-react';
 import Link from 'next/link';
+import { useState } from 'react';
 
 interface QuoteFormProps {
   locale: Locale;
@@ -43,8 +43,8 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
     locale === 'pl'
       ? '/polityka-prywatnosci'
       : locale === 'en'
-      ? '/privacy-policy'
-      : '/polityka-pryvatnosti'
+        ? '/privacy-policy'
+        : '/polityka-pryvatnosti'
   );
 
   return (
@@ -60,15 +60,15 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
                 {locale === 'pl'
                   ? 'Bezpłatna wycena online'
                   : locale === 'en'
-                  ? 'Free online quote'
-                  : 'Безкоштовна оцінка онлайн'}
+                    ? 'Free online quote'
+                    : 'Безкоштовна оцінка онлайн'}
               </CardTitle>
               <CardDescription>
                 {locale === 'pl'
                   ? 'Wyślij dokument i otrzymaj wycenę w ciągu kilku godzin'
                   : locale === 'en'
-                  ? 'Send your document and receive a quote within hours'
-                  : 'Надішліть документ і отримайте оцінку протягом кількох годин'}
+                    ? 'Send your document and receive a quote within hours'
+                    : 'Надішліть документ і отримайте оцінку протягом кількох годин'}
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -80,8 +80,8 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
                         {locale === 'pl'
                           ? 'Para językowa'
                           : locale === 'en'
-                          ? 'Language pair'
-                          : 'Мовна пара'}
+                            ? 'Language pair'
+                            : 'Мовна пара'}
                       </Label>
                       <Select
                         value={formData.languagePair}
@@ -95,8 +95,8 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
                               locale === 'pl'
                                 ? 'Wybierz parę językową'
                                 : locale === 'en'
-                                ? 'Select language pair'
-                                : 'Виберіть мовну пару'
+                                  ? 'Select language pair'
+                                  : 'Виберіть мовну пару'
                             }
                           />
                         </SelectTrigger>
@@ -105,29 +105,29 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
                             {locale === 'pl'
                               ? 'Polski → Ukraiński'
                               : locale === 'en'
-                              ? 'Polish → Ukrainian'
-                              : 'Польська → Українська'}
+                                ? 'Polish → Ukrainian'
+                                : 'Польська → Українська'}
                           </SelectItem>
                           <SelectItem value="uk-pl">
                             {locale === 'pl'
                               ? 'Ukraiński → Polski'
                               : locale === 'en'
-                              ? 'Ukrainian → Polish'
-                              : 'Українська → Польська'}
+                                ? 'Ukrainian → Polish'
+                                : 'Українська → Польська'}
                           </SelectItem>
                           <SelectItem value="pl-en">
                             {locale === 'pl'
                               ? 'Polski → Angielski'
                               : locale === 'en'
-                              ? 'Polish → English'
-                              : 'Польська → Англійська'}
+                                ? 'Polish → English'
+                                : 'Польська → Англійська'}
                           </SelectItem>
                           <SelectItem value="en-pl">
                             {locale === 'pl'
                               ? 'Angielski → Polski'
                               : locale === 'en'
-                              ? 'English → Polish'
-                              : 'Англійська → Польська'}
+                                ? 'English → Polish'
+                                : 'Англійська → Польська'}
                           </SelectItem>
                         </SelectContent>
                       </Select>
@@ -138,8 +138,8 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
                         {locale === 'pl'
                           ? 'Dokumenty do przetłumaczenia'
                           : locale === 'en'
-                          ? 'Documents to translate'
-                          : 'Документи для перекладу'}
+                            ? 'Documents to translate'
+                            : 'Документи для перекладу'}
                       </Label>
                       <div className="border-2 border-dashed border-slate-300 rounded-lg p-8 text-center hover:border-blue-400 transition-colors">
                         <input
@@ -159,8 +159,8 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
                             {locale === 'pl'
                               ? 'Kliknij lub przeciągnij pliki'
                               : locale === 'en'
-                              ? 'Click or drag files'
-                              : 'Клацніть або перетягніть файли'}
+                                ? 'Click or drag files'
+                                : 'Клацніть або перетягніть файли'}
                           </span>
                           <span className="text-xs text-slate-500 mt-1">
                             PDF, JPG, PNG {locale === 'pl' ? 'do' : locale === 'en' ? 'up to' : 'до'}{' '}
@@ -194,8 +194,8 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
                       {locale === 'pl'
                         ? 'Dalej'
                         : locale === 'en'
-                        ? 'Next'
-                        : 'Далі'}
+                          ? 'Next'
+                          : 'Далі'}
                     </Button>
                   </div>
                 )}
@@ -275,8 +275,8 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
                         {locale === 'pl'
                           ? 'Wyślij zapytanie'
                           : locale === 'en'
-                          ? 'Send request'
-                          : 'Надіслати запит'}
+                            ? 'Send request'
+                            : 'Надіслати запит'}
                       </Button>
                     </div>
                   </div>

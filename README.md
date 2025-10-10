@@ -8,18 +8,19 @@ Professional, SEO-optimized marketing site for a Polish sworn translator busines
 - **SEO optimized**: Structured data, hreflang tags, canonical URLs, sitemap
 - **Local SEO**: Kraków-focused with Google Maps integration
 - **Responsive design**: Mobile-first with Tailwind CSS
-- **Performance**: Static generation with Next.js export
+- **Performance**: Static generation with Next.js export, Turbopack builds, React 19 optimizations
 - **Forms**: Contact form and quote request with file upload (handlers to be implemented)
 - **Legal compliance**: GDPR/RODO ready with privacy policy, terms, and cookie policy
 - **Language switcher**: Global language selector in header (mobile + desktop)
 
 ## Tech Stack
 
-- Next.js 13.5 (App Router)
-- TypeScript
-- Tailwind CSS
-- Radix UI components (shadcn/ui)
-- Lucide React icons
+- **Next.js 15.5.4** (App Router with Turbopack support)
+- **React 19.2.0** (Latest stable with new features)
+- **TypeScript 5.9.3** (Enhanced type safety)
+- **Tailwind CSS 3.3.3** (Utility-first styling)
+- **Radix UI components** (shadcn/ui)
+- **Lucide React icons**
 
 ## Project Structure
 
@@ -70,6 +71,11 @@ Update this file with real data before deployment.
 4. Build for production:
    ```bash
    npm run build
+   ```
+
+5. Build with Turbopack (faster builds):
+   ```bash
+   npm run build -- --turbopack
    ```
 
 ## Pages
@@ -151,9 +157,25 @@ Replace placeholder images with:
 ### Google Maps
 Update the embed URL in `components/contact-section.tsx` with actual business location coordinates.
 
+## Next.js 15 Features
+
+This project leverages the latest Next.js 15.5.4 features:
+
+- **Turbopack**: Faster builds with `--turbopack` flag
+- **React 19**: Latest React features and performance improvements
+- **Enhanced TypeScript**: Better type safety and developer experience
+- **Modern Image API**: Updated `next/image` component (no longer using `next/legacy/image`)
+- **Improved Link Component**: Simplified Link usage without `legacyBehavior`
+- **Static Export**: Optimized static site generation
+
 ## Maintenance
 
 Update prices in `config/site.ts` when needed. All pricing displays are automatically updated throughout the site.
+
+### Security Updates
+- Regular `npm audit` checks
+- Updated browserslist configuration for modern browsers
+- Zero security vulnerabilities (as of latest audit)
 
 ## License
 

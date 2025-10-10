@@ -1,5 +1,5 @@
-import { MetadataRoute } from 'next';
 import { siteConfig } from '@/config/site';
+import { MetadataRoute } from 'next';
 
 export const dynamic = 'force-static';
 

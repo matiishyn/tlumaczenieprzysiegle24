@@ -1,13 +1,13 @@
 'use client';
 
+import { LanguageSwitcher } from '@/components/language-switcher';
+import { Button } from '@/components/ui/button';
+import { Locale } from '@/config/locales';
+import { siteConfig } from '@/config/site';
+import { getLocalePath } from '@/lib/i18n';
+import { Mail, Menu, Phone, X } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';
-import { Menu, X, Phone, Mail } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { LanguageSwitcher } from '@/components/language-switcher';
-import { siteConfig } from '@/config/site';
-import { Locale } from '@/config/locales';
-import { getLocalePath } from '@/lib/i18n';
 
 interface SiteHeaderProps {
   locale: Locale;

@@ -1,9 +1,9 @@
-import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Languages, ArrowRight } from 'lucide-react';
 import { Locale } from '@/config/locales';
 import { getLocalePath } from '@/lib/i18n';
+import { ArrowRight, Languages } from 'lucide-react';
+import Link from 'next/link';
 
 interface ServicesSectionProps {
   t: any;
@@ -20,8 +20,8 @@ export function ServicesSection({ t, locale }: ServicesSectionProps) {
         locale === 'pl'
           ? '/uslugi/tlumaczenia-na-ukrainski'
           : locale === 'en'
-          ? '/services/ukrainian-translations'
-          : '/posluhy/pereklad-na-ukrainsku'
+            ? '/services/ukrainian-translations'
+            : '/posluhy/pereklad-na-ukrainsku'
       ),
       flag: '🇺🇦',
     },
@@ -33,8 +33,8 @@ export function ServicesSection({ t, locale }: ServicesSectionProps) {
         locale === 'pl'
           ? '/uslugi/tlumaczenia-na-angielski'
           : locale === 'en'
-          ? '/services/english-translations'
-          : '/posluhy/pereklad-na-anhliysku'
+            ? '/services/english-translations'
+            : '/posluhy/pereklad-na-anhliysku'
       ),
       flag: '🇬🇧',
     },

@@ -1,8 +1,8 @@
-import Link from 'next/link';
-import { Facebook, MessageCircle, Send } from 'lucide-react';
-import { siteConfig } from '@/config/site';
 import { Locale } from '@/config/locales';
+import { siteConfig } from '@/config/site';
 import { getLocalePath } from '@/lib/i18n';
+import { Facebook, MessageCircle, Send } from 'lucide-react';
+import Link from 'next/link';
 
 interface SiteFooterProps {
   locale: Locale;

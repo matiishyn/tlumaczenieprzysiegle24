@@ -1,16 +1,16 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
-import Link from 'next/link';
-import { Globe } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { Button } from '@/components/ui/button';
-import { Locale, locales, localeNames, defaultLocale } from '@/config/locales';
+import { Locale, localeNames, locales } from '@/config/locales';
+import { Globe } from 'lucide-react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export function LanguageSwitcher() {
   const pathname = usePathname();
@@ -40,8 +40,8 @@ export function LanguageSwitcher() {
   const currentLocale: Locale = pathname.startsWith('/en')
     ? 'en'
     : pathname.startsWith('/uk')
-    ? 'uk'
-    : 'pl';
+      ? 'uk'
+      : 'pl';
 
   return (
     <DropdownMenu>
