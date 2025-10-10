@@ -82,7 +82,7 @@ export function HeroSection({ t, locale }: HeroSectionProps) {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden">
               <Image
-                src="/2.png"
+                src="/2.webp"
                 alt={locale === 'pl' ? 'Profesjonalne spotkanie w biurze' : locale === 'en' ? 'Professional office meeting' : 'Професійна зустріч в офісі'}
                 fill
                 className="object-cover"
