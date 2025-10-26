@@ -9,7 +9,7 @@ interface HeroSectionProps {
 
 export function HeroSection({ t, locale }: HeroSectionProps) {
   return (
-    <section className="relative bg-gradient-to-b from-slate-50 to-white py-20 md:py-32">
+    <section className="relative bg-gradient-to-b from-slate-50 to-white py-20 md:py-10">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -80,9 +80,9 @@ export function HeroSection({ t, locale }: HeroSectionProps) {
           </div>
 
           <div className="relative">
-            <div className="aspect-[4/3] rounded-2xl overflow-hidden">
+            <div className="aspect-[4000/4578] rounded-2xl overflow-hidden">
               <Image
-                src="/2.webp"
+                src="/anna.webp"
                 alt={locale === 'pl' ? 'Profesjonalne spotkanie w biurze' : locale === 'en' ? 'Professional office meeting' : 'Професійна зустріч в офісі'}
                 fill
                 className="object-cover"
