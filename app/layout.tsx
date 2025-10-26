@@ -24,6 +24,21 @@ export const metadata: Metadata = {
     'apostille Kraków',
   ],
   authors: [{ name: siteConfig.business.name }],
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon0.svg', type: 'image/svg+xml' },
+      { url: '/icon1.png', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  manifest: '/manifest.json',
+  appleWebApp: {
+    title: siteConfig.business.name,
+    statusBarStyle: 'default',
+  },
   openGraph: {
     type: 'website',
     locale: 'pl_PL',
@@ -61,6 +76,7 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="uk" href={`${siteConfig.urls.domain}/uk`} />
         <link rel="alternate" hrefLang="x-default" href={siteConfig.urls.domain} />
         <meta name="google-site-verification" content="0GJj9wcGBBmGOT96kDPwFZEf8jIOtfUR42cd6_5-xIU" />
+        <meta name="apple-mobile-web-app-title" content={siteConfig.business.name} />
         <OrganizationSchema />
         <PersonSchema />
         <Analytics />
