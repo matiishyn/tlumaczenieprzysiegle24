@@ -5,6 +5,7 @@ import { ServicesSection } from '@/components/services-section';
 import { PricingSection } from '@/components/pricing-section';
 import { QuoteForm } from '@/components/quote-form';
 import { FaqSection } from '@/components/faq-section';
+import { ReviewsSection } from '@/components/reviews-section';
 import { ContactSection } from '@/components/contact-section';
 import { getTranslations } from '@/lib/i18n';
 import type { Metadata } from 'next';
@@ -39,6 +40,7 @@ export default function EnglishHomePage() {
         <PricingSection t={t} locale="en" />
         <QuoteForm locale="en" t={t} />
         <FaqSection t={t} />
+        <ReviewsSection t={t} locale="en" />
         <ContactSection t={t} locale="en" />
       </main>
       <SiteFooter locale="en" t={t} />

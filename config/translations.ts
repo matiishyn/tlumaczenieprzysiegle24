@@ -110,6 +110,38 @@ export const translations: Record<Locale, any> = {
         },
       ],
     },
+    reviews: {
+      title: 'Opinie klientów',
+      subtitle: 'Prawdziwe opinie o tłumaczeniach przysięgłych w Krakowie',
+      description: 'Dumni jesteśmy z zaufania klientów, którzy wybierają nas do oficjalnych tłumaczeń w Polsce. Poniżej kilka prawdziwych historii naszych klientów, którzy już skorzystali z usług tłumacza przysięgłego języka polskiego i ukraińskiego.',
+      items: [
+        {
+          name: 'Olena M., Kraków',
+          location: 'Kraków',
+          text: 'Zamawiałam tłumaczenie świadectwa ślubu i dyplomu. Wszystko otrzymałam w ciągu doby, z podpisem tłumacza przysięgłego. Bardzo uprzejmie i profesjonalnie, polecam!',
+        },
+        {
+          name: 'Igor S., Nowa Huta',
+          location: 'Nowa Huta',
+          text: 'Potrzebny był tłumacz przysięgły zaświadczenia do Urzędu Wojewódzkiego. Pani Anna wszystko zrobiła szybko, bez błędów, nawet pomogła z sformułowaniami po polsku.',
+        },
+        {
+          name: 'Maria K., studentka AGH',
+          location: 'AGH',
+          text: 'Zamówiłam tłumaczenie świadectwa i indeksu. Ceny dostępne, tłumaczenie przyjęto na uniwersytecie bez żadnych uwag.',
+        },
+        {
+          name: 'Aleksander T., Kraków Centrum',
+          location: 'Kraków Centrum',
+          text: 'Robiłem tłumaczenie umowy o pracę dla urzędu skarbowego. Otrzymałem gotowy dokument następnego dnia z pieczęcią. Serwis na poziomie.',
+        },
+        {
+          name: 'Światłana D., Lwów / Kraków',
+          location: 'Lwów / Kraków',
+          text: 'Bardzo wygodnie, że można wysłać dokumenty online. Odpowiedzieli w ciągu 15 minut, wszystko oficjalnie i bez problemów.',
+        },
+      ],
+    },
     footer: {
       businessInfo: 'Informacje o firmie',
       quickLinks: 'Szybkie linki',
@@ -234,6 +266,38 @@ export const translations: Record<Locale, any> = {
         },
       ],
     },
+    reviews: {
+      title: 'Client Reviews',
+      subtitle: 'Real reviews about sworn translations in Kraków',
+      description: 'We are proud of the trust of clients who choose us for official translations in Poland. Below are several real stories from our clients who have already used sworn translation services in Polish and Ukrainian languages.',
+      items: [
+        {
+          name: 'Olena M., Kraków',
+          location: 'Kraków',
+          text: 'I ordered translation of marriage certificate and diploma. Everything was delivered within a day, with sworn translator signature. Very polite and professional, I recommend!',
+        },
+        {
+          name: 'Igor S., Nowa Huta',
+          location: 'Nowa Huta',
+          text: 'I needed sworn translation of a certificate for submission to Voivodeship Office. Ms. Anna did everything quickly, without errors, even helped with Polish formulations.',
+        },
+        {
+          name: 'Maria K., AGH student',
+          location: 'AGH',
+          text: 'I ordered translation of certificate and grade book. Prices are affordable, the translation was accepted at the university without any remarks.',
+        },
+        {
+          name: 'Aleksander T., Kraków Centrum',
+          location: 'Kraków Centrum',
+          text: 'I had employment contract translated for tax office. Received ready document the next day with seal. Service at high level.',
+        },
+        {
+          name: 'Svitlana D., Lviv / Kraków',
+          location: 'Lviv / Kraków',
+          text: 'Very convenient that documents can be sent online. Responded within 15 minutes, everything official and without problems.',
+        },
+      ],
+    },
     footer: {
       businessInfo: 'Business information',
       quickLinks: 'Quick links',
@@ -355,6 +419,38 @@ export const translations: Record<Locale, any> = {
         {
           q: 'Які документи я можу надіслати для оцінки?',
           a: 'Ми приймаємо файли PDF, JPG і PNG до 20 МБ. Ви можете надіслати скани або фотографії документів.',
+        },
+      ],
+    },
+    reviews: {
+      title: 'Відгуки клієнтів',
+      subtitle: 'Реальні відгуки про присяжні переклади у Кракові',
+      description: 'Ми пишаємося довірою клієнтів, які обирають нас для офіційних перекладів у Польщі. Нижче кілька справжніх історій наших клієнтів, які вже скористалися послугами присяжного перекладу польською та українською мовами.',
+      items: [
+        {
+          name: 'Олена М., Краків',
+          location: 'Краків',
+          text: 'Замовляла переклад свідоцтва про шлюб та диплом. Все отримала за добу, з підписом присяжного перекладача. Дуже ввічливо і професійно, рекомендую!',
+        },
+        {
+          name: 'Ігор С., Nowa Huta',
+          location: 'Nowa Huta',
+          text: 'Потрібен був присяжний переклад довідки для подачі до Urząd Wojewódzki. Пані Анна все зробила швидко, без помилок, навіть допомогла з формулюваннями польською.',
+        },
+        {
+          name: 'Марія К., студентка AGH',
+          location: 'AGH',
+          text: 'Замовила переклад атестату та залікової книжки. Ціни доступні, переклад прийняли в університеті без жодних зауважень.',
+        },
+        {
+          name: 'Олександр Т., Kraków Centrum',
+          location: 'Kraków Centrum',
+          text: 'Робив переклад трудового договору для податкової. Отримав готовий документ наступного дня з печаткою. Сервіс на рівні.',
+        },
+        {
+          name: 'Світлана Д., Львів / Краків',
+          location: 'Львів / Краків',
+          text: 'Дуже зручно, що можна надіслати документи онлайн. Відповіли за 15 хвилин, все офіційно і без проблем.',
         },
       ],
     },
