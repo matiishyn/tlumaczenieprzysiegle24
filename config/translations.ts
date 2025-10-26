@@ -174,31 +174,39 @@ export const translations: Record<Locale, any> = {
       },
     },
     faq: {
-      title: 'Najczęściej zadawane pytania',
+      title: 'Najczęściej zadawane pytania (FAQ)',
       items: [
         {
-          q: 'Jakie języki obsługuje tłumacz?',
-          a: 'Specjalizuję się w tłumaczeniach przysięgłych z polskiego na ukraiński i z ukraińskiego na polski. To są jedyne języki, które obsługuję.',
+          q: 'Kim jest tłumacz przysięgły języka ukraińskiego w Krakowie i jakie ma uprawnienia?',
+          a: 'Tłumacz przysięgły języka ukraińskiego w Krakowie to specjalista, który ma oficjalne prawo wykonywania tłumaczeń dokumentów wymagających mocy prawnej. Jest zarejestrowany w wykazie Ministerstwa Sprawiedliwości Polski (Rejestr Tłumaczy Przysięgłych) i cieszy się zaufaniem publicznym. Taki tłumacz posiada własną pieczęć z numerem i danymi, którą uwierzytelnia tłumaczenia, potwierdzając ich zgodność z oryginałem. Usługi tłumacza przysięgłego są potrzebne, gdy dokument jest przeznaczony do złożenia w polskich organach państwowych — ZUS, Urząd Wojewódzki, USC, sądzie, notariuszu lub konsulacie. Bez podpisu i pieczęci tłumacza przysięgłego oficjalne dokumenty w języku ukraińskim nie mają mocy prawnej w Polsce. Dlatego tłumacz przysięgły języka ukraińskiego Kraków gwarantuje legalność i dokładność każdego tłumaczenia.',
         },
         {
-          q: 'Ile kosztuje tłumaczenie przysięgłe?',
-          a: 'Cena zależy od rodzaju dokumentu i liczby stron. Sprawdź nasz cennik lub wyślij dokument do bezpłatnej wyceny.',
+          q: 'W jakich przypadkach potrzebny jest tłumaczenie przysięgłe dokumentów w Krakowie?',
+          a: 'Tłumaczenie przysięgłe Kraków jest potrzebne we wszystkich sytuacjach, gdy dokumenty składane są w organach oficjalnych lub mają znaczenie prawne. Może to być rejestracja małżeństwa, urodzenia lub śmierci, legalizacja pobytu w Polsce, uzyskanie karty pobytu, uzyskanie pozwolenia na pracę lub rejestracja działalności gospodarczej. Tłumaczenie przysięgłe często wymagane jest również przy składaniu dokumentów w sądzie, u notariusza, w bankach, na uniwersytetach lub przy przeprowadzce na stałe zamieszkanie. Zwykłe tłumaczenie w takich przypadkach nie wystarczy, ponieważ nie ma potwierdzenia wiarygodności. Tłumacz przysięgły języka ukraińskiego nie tylko tłumaczy tekst, ale także oficjalnie potwierdza, że treść dokumentu odpowiada oryginałowi, ponosi odpowiedzialność prawną i gwarantuje poprawność każdego terminu.',
         },
         {
-          q: 'Jak długo trwa tłumaczenie?',
-          a: 'Standardowy czas realizacji to 2-3 dni robocze. Oferujemy również usługę ekspresową do 24 godzin.',
+          q: 'Jakie dokumenty najczęściej tłumaczone są przysięgle z ukraińskiego i na ukraiński?',
+          a: 'Nasze biuro tłumaczeń w Krakowie wykonuje oficjalne tłumaczenia przysięgłe z ukraińskiego na polski i z polskiego na ukraiński. Najczęściej zamawiane są tłumaczenia aktów urodzenia, małżeństwa, rozwodu lub śmierci, a także dyplomów, świadectw, suplementów do dyplomu, zaświadczeń o niekaralności, deklaracji podatkowych, orzeczeń sądowych, umów, pełnomocnictw i innych dokumentów prawnych. Tłumaczymy również dokumenty firm — statuty, wyciągi z KRS, sprawozdania finansowe, wyciągi bankowe, opisy techniczne, instrukcje i biznesplany. Wszystkie tłumaczenia wykonywane są przez tłumacza przysięgłego języka ukraińskiego (tłumacz przysięgły języka ukraińskiego Kraków) i uwierzytelniane oficjalną pieczęcią, dlatego są uznawane przez polskie sądy, uniwersytety i instytucje państwowe.',
         },
         {
-          q: 'Czy mogę odebrać tłumaczenie osobiście?',
-          a: 'Tak, odbiór osobisty w Krakowie jest możliwy po wcześniejszym umówieniu. Oferujemy również wysyłkę kurierem.',
+          q: 'Czy można zamówić ustne tłumaczenie przysięgłe w Krakowie?',
+          a: 'Tak, świadczymy usługi ustnego tłumaczenia przysięgłego języka ukraińskiego w Krakowie. Takie tłumaczenia są niezbędne podczas posiedzeń w sądzie, u notariusza, przy rejestracji małżeństwa, podpisywaniu umów, prowadzeniu oficjalnych negocjacji lub spotkań z przedstawicielami polskich organów władzy. Tłumacz ustny odpowiada za dokładność przetłumaczonych słów i poświadcza, że obie strony prawidłowo rozumieją treść wypowiedzi. Dzięki temu tłumaczenie ma taką samą wagę prawną jak pisemny dokument przysięgły. Gwarantujemy jasność, neutralność, zachowanie poufności i profesjonalne prowadzenie tłumaczenia nawet w skomplikowanych sprawach administracyjnych lub sądowych.',
         },
         {
-          q: 'Czy tłumaczenie jest ważne za granicą?',
-          a: 'Tłumaczenie przysięgłe jest uznawane w Polsce. Dla celów międzynarodowych może być wymagane apostille lub legalizacja.',
+          q: 'Jaki jest koszt tłumaczenia przysięgłego dokumentów w Krakowie?',
+          a: 'Cena tłumaczenia przysięgłego zależy od kierunku, złożoności tekstu i terminu wykonania. Kalkulacja przeprowadzana jest zgodnie z normami Ministerstwa Sprawiedliwości Polski: jedna strona obliczeniowa = 1125 znaków ze spacjami. Koszt tłumaczenia z ukraińskiego na polski wynosi od 35 zł za stronę, a z polskiego na ukraiński — od 45 zł. Tłumaczenie ekspresowe w dniu zamówienia wykonywane jest z dopłatą (+40%), a dla większych pakietów dokumentów możliwe są indywidualne zniżki. Zawsze zapewniamy klientom wcześniejszą ocenę kosztów, aby uniknąć nieporozumień. Tłumaczenie przysięgłe Kraków to oficjalna, legalna usługa z jasnymi taryfami.',
         },
         {
-          q: 'Jakie dokumenty mogę przesłać do wyceny?',
-          a: 'Akceptujemy pliki PDF, JPG i PNG do 20 MB. Możesz wysłać skany lub zdjęcia dokumentów.',
+          q: 'Ile czasu zajmuje tłumaczenie przysięgłe dokumentów?',
+          a: 'Termin wykonania zależy od objętości materiału i typu dokumentu. Standardowy dokument (jedna strona) zwykle tłumaczony jest w ciągu 24–48 godzin. Jeśli klient potrzebuje pilnego tłumaczenia do złożenia w ZUS, Urząd Wojewódzki lub sądzie, możliwa jest usługa ekspresowa w dniu zamówienia. Przy tłumaczeniach większych objętości lub specjalistycznych tekstów (np. medycznych lub technicznych) termin uzgadniany jest indywidualnie. Zawsze staramy się znaleźć optymalną równowagę między szybkością a jakością, aby tłumaczenie przysięgłe było dokładne i przyjęte bez uwag.',
+        },
+        {
+          q: 'Czy można zamówić tłumaczenie przysięgłe online, bez osobistej wizyty?',
+          a: 'Tak, przyjmujemy dokumenty online — wystarczy przesłać je w formacie PDF, JPG lub DOC. W ciągu 15–30 minut otrzymasz dokładną ocenę kosztów i terminu wykonania. Po opłaceniu rozpoczynamy pracę, a gotowe tłumaczenie można otrzymać podpisem elektronicznym ePUAP lub dostawą kurierem. Ten sposób jest szczególnie wygodny dla klientów z innych miast lub tych, którzy potrzebują tłumaczenia przysięgłego języka ukraińskiego szybko i bez wizyty w biurze. Tłumaczenie online ma taką samą moc prawną jak wydany osobiście dokument, ponieważ uwierzytelniane jest tą samą oficjalną pieczęcią tłumacza przysięgłego.',
+        },
+        {
+          q: 'Czy wasze tłumaczenia są uznawane przez instytucje państwowe Polski i czy gwarantowana jest poufność?',
+          a: 'Wszystkie tłumaczenia wykonywane są przez certyfikowanego tłumacza przysięgłego języka ukraińskiego, zarejestrowanego w Ministerstwie Sprawiedliwości Polski. Dlatego są oficjalnie uznawane w sądach, ZUS, Urząd Wojewódzki, uniwersytetach, konsulatach, bankach i kancelariach notarialnych. Rygorystycznie przestrzegamy kodeksu etycznego tłumacza przysięgłego — zachowujemy poufność wszystkich danych, dokumentów i informacji osobistych klientów. Każde tłumaczenie sprawdzane jest pod kątem dokładności i zgodności z oficjalnym formatem. Naszym zadaniem jest uczynienie języka polskiego zrozumiałym i prawnie poprawnym, zapewnienie dokładnego, legalnego i bezpiecznego tłumaczenia, które zostanie przyjęte w każdej instytucji Polski.',
         },
       ],
     },
@@ -422,31 +430,39 @@ export const translations: Record<Locale, any> = {
       },
     },
     faq: {
-      title: 'Frequently asked questions',
+      title: 'Frequently asked questions (FAQ)',
       items: [
         {
-          q: 'What languages does the translator work with?',
-          a: 'I specialize in sworn translations from Polish to Ukrainian and from Ukrainian to Polish. These are the only languages I work with.',
+          q: 'Who is a sworn translator of Ukrainian language in Kraków and what are their powers?',
+          a: 'A sworn translator of Ukrainian language in Kraków is a specialist who has the official right to perform translations of documents requiring legal force. They are registered in the list of the Polish Ministry of Justice (Rejestr Tłumaczy Przysięgłych) and enjoy public trust. Such a translator has their own seal with number and data, which they use to authenticate translations, confirming their compliance with the original. Sworn translator services are needed when a document is intended for submission to Polish state authorities — ZUS, Voivodeship Office, USC, court, notary or consulate. Without the signature and seal of a sworn translator, official documents in Ukrainian language have no legal force in Poland. That is why tłumacz przysięgły języka ukraińskiego Kraków guarantees the legality and accuracy of every translation.',
         },
         {
-          q: 'How much does a sworn translation cost?',
-          a: 'The price depends on the document type and number of pages. Check our pricing or send a document for a free quote.',
+          q: 'In what cases is sworn translation of documents needed in Kraków?',
+          a: 'Sworn translation Kraków is needed in all situations when documents are submitted to official authorities or have legal significance. This may include marriage, birth or death registration, legalization of stay in Poland, obtaining a residence card, work permit or business registration. Sworn translation is also often required for submitting documents to court, notary, banks, universities or when moving for permanent residence. Regular translation is not suitable in such cases, as it lacks authenticity confirmation. A sworn translator of Ukrainian language not only translates the text, but also officially confirms that the document content corresponds to the original, bears legal responsibility and guarantees the correctness of every term.',
         },
         {
-          q: 'How long does translation take?',
-          a: 'Standard turnaround time is 2-3 business days. We also offer express service up to 24 hours.',
+          q: 'What documents are most frequently translated sworn from Ukrainian and to Ukrainian?',
+          a: 'Our translation bureau in Kraków performs official sworn translations from Ukrainian to Polish and from Polish to Ukrainian. Most frequently ordered are translations of birth, marriage, divorce or death certificates, as well as diplomas, certificates, diploma supplements, criminal record certificates, tax declarations, court decisions, contracts, powers of attorney and other legal documents. We also translate company documents — statutes, KRS extracts, financial reports, bank statements, technical descriptions, instructions and business plans. All translations are performed by a sworn translator of Ukrainian language (tłumacz przysięgły języka ukraińskiego Kraków) and authenticated with an official seal, therefore they are recognized by Polish courts, universities and state institutions.',
         },
         {
-          q: 'Can I pick up the translation in person?',
-          a: 'Yes, personal pickup in Kraków is possible by appointment. We also offer courier delivery.',
+          q: 'Can I order oral sworn translation in Kraków?',
+          a: 'Yes, we provide oral sworn translation services of Ukrainian language in Kraków. Such translations are necessary during court sessions, at notary, during marriage registration, contract signing, conducting official negotiations or meetings with representatives of Polish authorities. An oral translator is responsible for the accuracy of translated words and certifies that both parties correctly understand the content of statements. Thanks to this, the translation has the same legal weight as a written sworn document. We guarantee clarity, neutrality, confidentiality preservation and professional conduct of translation even in complex administrative or court cases.',
         },
         {
-          q: 'Is the translation valid abroad?',
-          a: 'Sworn translation is recognized in Poland. For international purposes, apostille or legalization may be required.',
+          q: 'What is the cost of sworn translation of documents in Kraków?',
+          a: 'The price of sworn translation depends on direction, text complexity and execution deadline. Calculation is conducted according to Polish Ministry of Justice standards: one calculation page = 1125 characters with spaces. The cost of translation from Ukrainian to Polish is from 35 zł per page, and from Polish to Ukrainian — from 45 zł. Express translation on order day is performed with surcharge (+40%), and for larger document packages individual discounts are possible. We always provide clients with advance cost estimation to avoid misunderstandings. Sworn translation Kraków is an official, legal service with clear tariffs.',
         },
         {
-          q: 'What documents can I send for a quote?',
-          a: 'We accept PDF, JPG and PNG files up to 20 MB. You can send scans or photos of documents.',
+          q: 'How long does sworn translation of documents take?',
+          a: 'Execution deadline depends on material volume and document type. A standard document (one page) is usually translated within 24–48 hours. If a client needs urgent translation for submission to ZUS, Voivodeship Office or court, express service on order day is possible. For larger volume translations or specialized texts (e.g., medical or technical), the deadline is agreed individually. We always strive to find optimal balance between speed and quality, so that sworn translation is accurate and accepted without remarks.',
+        },
+        {
+          q: 'Can I order sworn translation online, without personal visit?',
+          a: 'Yes, we accept documents online — it\'s enough to send them in PDF, JPG or DOC format. Within 15–30 minutes you will receive accurate cost and execution deadline estimation. After payment we start work, and the ready translation can be received with ePUAP electronic signature or courier delivery. This method is especially convenient for clients from other cities or those who need sworn translation of Ukrainian language quickly and without office visit. Online translation has the same legal force as personally issued document, as it\'s authenticated with the same official seal of sworn translator.',
+        },
+        {
+          q: 'Are your translations recognized by Polish state institutions and is confidentiality guaranteed?',
+          a: 'All translations are performed by a certified sworn translator of Ukrainian language, registered in the Polish Ministry of Justice. Therefore they are officially recognized in courts, ZUS, Voivodeship Office, universities, consulates, banks and notarial offices. We strictly adhere to the ethical code of sworn translator — we maintain confidentiality of all data, documents and personal information of clients. Every translation is checked for accuracy and compliance with official format. Our task is to make Polish language understandable and legally correct, ensure accurate, legal and safe translation that will be accepted in any Polish institution.',
         },
       ],
     },
@@ -670,31 +686,39 @@ export const translations: Record<Locale, any> = {
       },
     },
     faq: {
-      title: 'Часті запитання',
+      title: 'Часті запитання (FAQ)',
       items: [
         {
-          q: 'Які мови обслуговує перекладач?',
-          a: 'Я спеціалізуюся на присяжних перекладах з польської на українську і з української на польську. Це єдині мови, які я обслуговую.',
+          q: 'Хто такий присяжний перекладач української мови у Кракові і які його повноваження?',
+          a: 'Присяжний перекладач української мови у Кракові — це фахівець, який має офіційне право виконувати переклади документів, що потребують юридичної сили. Він зареєстрований у списку Міністерства юстиції Польщі (Rejestr Tłumaczy Przysięgłych) і користується суспільною довірою. Такий перекладач має власну печатку з номером і даними, якою завіряє переклади, підтверджуючи їх відповідність оригіналу. Послуги присяжного перекладача потрібні, коли документ призначений для подання до польських державних органів — ZUS, Urząd Wojewódzki, USC, суду, нотаріуса або консульства. Без підпису та печатки присяжного перекладача офіційні документи українською мовою не мають юридичної сили у Польщі. Саме тому tłumacz przysięgły języka ukraińskiego Kraków гарантує легальність і точність кожного перекладу.',
         },
         {
-          q: 'Скільки коштує присяжний переклад?',
-          a: 'Ціна залежить від типу документа та кількості сторінок. Перегляньте наш прайс або надішліть документ для безкоштовної оцінки.',
+          q: 'У яких випадках потрібен присяжний переклад документів у Кракові?',
+          a: 'Присяжний переклад Краків потрібен у всіх ситуаціях, коли документи подаються до офіційних органів або мають юридичне значення. Це може бути реєстрація шлюбу, народження чи смерті, легалізація перебування в Польщі, отримання карти побиту, оформлення дозволу на роботу або реєстрація бізнесу. Також присяжний переклад часто вимагається для подачі документів до суду, у нотаріуса, до банків, в університети або при переїзді на постійне проживання. Звичайний переклад у таких випадках не підходить, адже він не має підтвердження достовірності. Присяжний перекладач української мови не лише перекладає текст, а й офіційно підтверджує, що зміст документа відповідає оригіналу, несе юридичну відповідальність і гарантує правильність кожного терміну.',
         },
         {
-          q: 'Скільки часу займає переклад?',
-          a: 'Стандартний час виконання 2-3 робочі дні. Ми також пропонуємо експрес-послугу до 24 годин.',
+          q: 'Які документи найчастіше перекладаються присяжно з української та на українську мову?',
+          a: 'Наше бюро перекладів у Кракові виконує офіційні присяжні переклади з української на польську та з польської на українську мову. Найчастіше замовляють переклад свідоцтв про народження, шлюб, розлучення або смерть, а також дипломів, атестатів, додатків до диплому, довідок про несудимість, податкових декларацій, судових рішень, договорів, довіреностей та інших юридичних документів. Ми також перекладаємо документи компаній — статути, витяги з KRS, фінансові звіти, банківські виписки, технічні описи, інструкції та бізнес-плани. Усі переклади виконуються присяжним перекладачем української мови (tłumacz przysięgły języka ukraińskiego Kraków) і завіряються офіційною печаткою, тому визнаються польськими судами, університетами та державними установами.',
         },
         {
-          q: 'Чи можу я забрати переклад особисто?',
-          a: 'Так, особистий самовивіз у Кракові можливий за попередньою домовленістю. Ми також пропонуємо доставку кур\'єром.',
+          q: 'Чи можна замовити усний присяжний переклад у Кракові?',
+          a: 'Так, ми надаємо послуги усного присяжного перекладу української мови у Кракові. Такі переклади необхідні під час засідань у суді, у нотаріуса, при реєстрації шлюбу, підписанні угод, веденні офіційних переговорів або зустрічей з представниками польських органів влади. Усний перекладач відповідає за точність перекладених слів і засвідчує, що обидві сторони правильно розуміють зміст висловлювань. Завдяки цьому переклад має ту ж юридичну вагу, що й письмовий присяжний документ. Ми гарантуємо чіткість, нейтральність, збереження конфіденційності та професійне ведення перекладу навіть у складних адміністративних або судових справах.',
         },
         {
-          q: 'Чи дійсний переклад за кордоном?',
-          a: 'Присяжний переклад визнається в Польщі. Для міжнародних цілей може знадобитися апостиль або легалізація.',
+          q: 'Яка вартість присяжного перекладу документів у Кракові?',
+          a: 'Ціна присяжного перекладу залежить від напрямку, складності тексту та терміну виконання. Розрахунок проводиться відповідно до норм Міністерства юстиції Польщі: одна розрахункова сторінка = 1125 символів з пробілами. Вартість перекладу з української на польську мову становить від 35 zł за сторінку, а з польської на українську — від 45 zł. Експрес-переклад у день замовлення виконується з доплатою (+40 %), а для більших пакетів документів можливі індивідуальні знижки. Ми завжди надаємо клієнтам попередню оцінку вартості, щоб уникнути непорозумінь. Присяжний переклад Краків - це офіційна, легальна послуга з чіткими тарифами.',
         },
         {
-          q: 'Які документи я можу надіслати для оцінки?',
-          a: 'Ми приймаємо файли PDF, JPG і PNG до 20 МБ. Ви можете надіслати скани або фотографії документів.',
+          q: 'Скільки часу займає присяжний переклад документів?',
+          a: 'Термін виконання залежить від обсягу матеріалу та типу документа. Стандартний документ (одна сторінка) зазвичай перекладається протягом 24–48 годин. Якщо клієнту потрібен терміновий переклад для подачі у ZUS, Urząd Wojewódzki чи суд, можлива експрес-послуга в день замовлення. При перекладах більших обсягів або спеціалізованих текстів (наприклад, медичних чи технічних) термін узгоджується індивідуально. Ми завжди прагнемо знайти оптимальний баланс між швидкістю та якістю, щоб присяжний переклад був точним і прийнятим без зауважень.',
+        },
+        {
+          q: 'Чи можна замовити присяжний переклад онлайн, без особистого візиту?',
+          a: 'Так, ми приймаємо документи онлайн — достатньо надіслати їх у форматі PDF, JPG або DOC. Протягом 15–30 хвилин ви отримаєте точну оцінку вартості та терміну виконання. Після оплати ми розпочнемо роботу, а готовий переклад можна отримати електронним підписом ePUAP або доставкою кур\'єром. Цей спосіб особливо зручний для клієнтів з інших міст або тих, хто потребує присяжного перекладу української мови швидко та без відвідування офісу. Онлайн-переклад має ту саму юридичну силу, що й виданий особисто документ, оскільки засвідчується тією ж офіційною печаткою присяжного перекладача.',
+        },
+        {
+          q: 'Чи визнаються ваші переклади державними установами Польщі і чи гарантується конфіденційність?',
+          a: 'Усі переклади виконуються сертифікованим присяжним перекладачем української мови, зареєстрованим у Міністерстві юстиції Польщі. Тому вони офіційно визнаються у судах, ZUS, Urząd Wojewódzki, університетах, консульствах, банках та нотаріальних конторах. Ми суворо дотримуємося етичного кодексу присяжного перекладача — зберігаємо конфіденційність усіх даних, документів і особистої інформації клієнтів. Кожен переклад перевіряється на точність і відповідність офіційному формату. Наше завдання — зробити польську мову зрозумілою та юридично правильною, забезпечити точний, легальний і безпечний переклад, який приймуть у будь-якій установі Польщі.',
         },
       ],
     },
