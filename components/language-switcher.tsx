@@ -18,6 +18,9 @@ const localeFlags: Record<Locale, string> = {
   uk: '🇺🇦',
 };
 
+// Only show Polish and Ukrainian in the dropdown
+const visibleLocales: Locale[] = ['pl', 'en', 'uk'];
+
 export function LanguageSwitcher() {
   const pathname = usePathname();
 
@@ -59,7 +62,7 @@ export function LanguageSwitcher() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        {locales.map((locale) => (
+        {visibleLocales.map((locale) => (
           <DropdownMenuItem key={locale} asChild>
             <Link
               href={getLocalizedPath(locale)}
