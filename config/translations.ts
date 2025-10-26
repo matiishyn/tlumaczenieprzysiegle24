@@ -11,7 +11,7 @@ export const translations: Record<Locale, any> = {
     },
     hero: {
       title: 'Tłumaczenie przysięgłe Kraków',
-      subtitle: 'Szybka wycena online • Odbiór w 24-48h • Certyfikowany tłumacz',
+      subtitle: 'Profesjonalne tłumaczenia przysięgłe dokumentów z ukraińskiego na polski i z polskiego na ukraiński • Oficjalna pieczęć tłumacza przysięgłego • Tłumaczenia uznawane przez wszystkie polskie organy władzy, ZUS, Urząd Wojewódzki oraz konsulaty • Ceny od 40 zł/strona',
       cta: 'Wyślij dokument',
       ctaSecondary: 'Zobacz cennik',
       features: {
@@ -135,7 +135,7 @@ export const translations: Record<Locale, any> = {
     },
     hero: {
       title: 'Sworn Translation Kraków',
-      subtitle: 'Fast online quote • 24-48h delivery • Certified translator',
+      subtitle: 'Professional sworn translations of documents from Ukrainian to Polish and from Polish to Ukrainian • Official sworn translator seal • Translations recognized by all Polish authorities, ZUS, Voivodeship Office and consulates • Prices from 40 zł/page',
       cta: 'Send document',
       ctaSecondary: 'View pricing',
       features: {
@@ -259,7 +259,7 @@ export const translations: Record<Locale, any> = {
     },
     hero: {
       title: 'Присяжний переклад Краків',
-      subtitle: 'Швидка оцінка онлайн • Готово за 24-48 год • Сертифікований перекладач',
+      subtitle: 'Професійні присяжні переклади документів з української на польську та з польської на українську • Офіційна печатка присяжного перекладача • Переклади визнаються усіма польськими органами влади, ZUS, Urząd Wojewódzki, а також консульствами • Ціни від 40 zł/сторінка',
       cta: 'Надіслати документ',
       ctaSecondary: 'Переглянути ціни',
       features: {
