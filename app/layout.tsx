@@ -60,6 +60,7 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="en" href={`${siteConfig.urls.domain}/en`} />
         <link rel="alternate" hrefLang="uk" href={`${siteConfig.urls.domain}/uk`} />
         <link rel="alternate" hrefLang="x-default" href={siteConfig.urls.domain} />
+        <meta name="google-site-verification" content="0GJj9wcGBBmGOT96kDPwFZEf8jIOtfUR42cd6_5-xIU" />
         <OrganizationSchema />
         <PersonSchema />
         <Analytics />
