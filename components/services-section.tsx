@@ -23,7 +23,7 @@ export function ServicesSection({ t, locale }: ServicesSectionProps) {
             ? '/services/ukrainian-translations'
             : '/posluhy/pereklad-na-ukrainsku'
       ),
-      flag: '🇺🇦',
+      flag: '🇺🇦 🇵🇱',
     },
   ];
 
