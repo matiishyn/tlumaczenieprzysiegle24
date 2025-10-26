@@ -10,7 +10,7 @@ export const siteConfig = {
       city: "Kraków",
       country: "Polska",
     },
-    phone: "+48 123 456 789",
+    phone: "+48 575 544 093",
     email: "kontakt@tlumaczenieprzysiegle24.pl",
     hours: "pon-pt 9:00–18:00",
     mojNumber: "TP/97/25",
@@ -25,9 +25,9 @@ export const siteConfig = {
 
   social: {
     facebook: "https://facebook.com/tlumaczenieprzysiegle24",
-    whatsapp: "+48123456789",
-    telegram: "+48123456789",
-    viber: "+48123456789",
+    whatsapp: "+48575544093",
+    telegram: "+48575544093",
+    viber: "+48575544093",
   },
 
   payments: {

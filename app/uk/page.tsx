@@ -1,15 +1,15 @@
-import { SiteHeader } from '@/components/site-header';
-import { SiteFooter } from '@/components/site-footer';
+import { ContactSection } from '@/components/contact-section';
+import { FaqSection } from '@/components/faq-section';
 import { HeroSection } from '@/components/hero-section';
-import { ServicesSection } from '@/components/services-section';
 import { PricingSection } from '@/components/pricing-section';
 import { QuoteForm } from '@/components/quote-form';
-import { FaqSection } from '@/components/faq-section';
 import { ReviewsSection } from '@/components/reviews-section';
-import { ContactSection } from '@/components/contact-section';
+import { ServicesSection } from '@/components/services-section';
+import { SiteFooter } from '@/components/site-footer';
+import { SiteHeader } from '@/components/site-header';
+import { siteConfig } from '@/config/site';
 import { getTranslations } from '@/lib/i18n';
 import type { Metadata } from 'next';
-import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
   title: 'Присяжний переклад Краків',

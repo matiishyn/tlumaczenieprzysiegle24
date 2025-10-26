@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Контакт',
   description:
-    'Зв\'яжіться з присяжним перекладачем у Кракові. Тел: +48 123 456 789, вул. Centralna 21. Особистий самовивіз або кур\'єр.',
+    `Зв'яжіться з присяжним перекладачем у Кракові. Тел: ${siteConfig.business.phone}, вул. Centralna 21. Особистий самовивіз або кур'єр.`,
   alternates: {
     canonical: `${siteConfig.urls.domain}/uk/kontakt`,
     languages: {
