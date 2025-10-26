@@ -1,4 +1,18 @@
 User-agent: *
 Allow: /
 
+# Block access to admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /out/
+
+# Allow all language versions
+Allow: /en/
+Allow: /uk/
+
+# Sitemap location
 Sitemap: https://tlumaczenieprzysiegle24.pl/sitemap.xml
+
+# Additional directives for better SEO
+Crawl-delay: 1

@@ -70,53 +70,53 @@ export function ReviewsSection({ t, locale }: ReviewsSectionProps) {
           {/* Main Review Card */}
           <div className="relative">
             <Card className="bg-white shadow-lg border-0 overflow-hidden">
-              <CardContent className="p-8 md:p-12">
-                <div className="flex items-center justify-center mb-6">
+              <CardContent className="p-6 md:p-12">
+                <div className="flex items-center justify-center mb-4 md:mb-6">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-5 w-5 text-yellow-400 fill-current mx-1" />
+                    <Star key={i} className="h-4 w-4 md:h-5 md:w-5 text-yellow-400 fill-current mx-1" />
                   ))}
                 </div>
                 
-                <blockquote className="text-lg md:text-xl text-slate-700 leading-relaxed text-center mb-8 italic">
+                <blockquote className="text-base md:text-lg lg:text-xl text-slate-700 leading-relaxed text-center mb-6 md:mb-8 italic">
                   "{t.reviews.items[currentIndex].text}"
                 </blockquote>
                 
                 <div className="text-center">
-                  <p className="font-semibold text-slate-900 text-lg mb-1">
+                  <p className="font-semibold text-slate-900 text-base md:text-lg mb-1">
                     {t.reviews.items[currentIndex].name}
                   </p>
-                  <p className="text-slate-500">
+                  <p className="text-sm md:text-base text-slate-500">
                     {t.reviews.items[currentIndex].location}
                   </p>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Navigation Arrows */}
+            {/* Navigation Arrows - Larger on mobile for better touch */}
             <button
               onClick={prevReview}
-              className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-slate-50 transition-colors z-10"
+              className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 w-12 h-12 md:w-10 md:h-10 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-slate-50 active:bg-slate-100 transition-colors z-10"
               aria-label="Previous review"
             >
-              <ChevronLeft className="h-5 w-5 text-slate-600" />
+              <ChevronLeft className="h-6 w-6 md:h-5 md:w-5 text-slate-600" />
             </button>
             
             <button
               onClick={nextReview}
-              className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-slate-50 transition-colors z-10"
+              className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 w-12 h-12 md:w-10 md:h-10 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-slate-50 active:bg-slate-100 transition-colors z-10"
               aria-label="Next review"
             >
-              <ChevronRight className="h-5 w-5 text-slate-600" />
+              <ChevronRight className="h-6 w-6 md:h-5 md:w-5 text-slate-600" />
             </button>
           </div>
 
-          {/* Dots Indicator */}
-          <div className="flex justify-center mt-8 space-x-2">
+          {/* Dots Indicator - Larger on mobile for better touch */}
+          <div className="flex justify-center mt-6 md:mt-8 space-x-3 md:space-x-2">
             {t.reviews.items.map((_: any, index: number) => (
               <button
                 key={index}
                 onClick={() => goToReview(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                className={`w-4 h-4 md:w-3 md:h-3 rounded-full transition-all duration-300 ${
                   index === currentIndex 
                     ? 'bg-yellow-500 scale-125' 
                     : 'bg-slate-300 hover:bg-slate-400'
@@ -134,29 +134,6 @@ export function ReviewsSection({ t, locale }: ReviewsSectionProps) {
           </div>
         </div>
 
-        {/* Mobile Grid Fallback (Hidden on larger screens) */}
-        <div className="md:hidden mt-12">
-          <div className="grid grid-cols-1 gap-4">
-            {t.reviews.items.slice(0, 3).map((review: any, index: number) => (
-              <Card key={index} className="bg-white shadow-md">
-                <CardContent className="p-4">
-                  <div className="flex items-center mb-3">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
-                    ))}
-                  </div>
-                  <p className="text-slate-700 mb-3 text-sm leading-relaxed">
-                    "{review.text}"
-                  </p>
-                  <div className="border-t pt-3">
-                    <p className="font-semibold text-slate-900 text-sm">{review.name}</p>
-                    <p className="text-xs text-slate-500">{review.location}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
