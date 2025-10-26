@@ -4,16 +4,16 @@ import { getTranslations } from '@/lib/i18n';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Sworn translation pricing',
+  title: 'Sworn translation pricing for documents in Kraków',
   description:
-    'Transparent sworn translation prices in Kraków. Certificates, diplomas, documents from 80 PLN. Fast online quote.',
+    'Sworn translator of Ukrainian language in Kraków performs official document translations from Ukrainian to Polish and vice versa at transparent rates. Cost depends on document type and urgency, with no hidden fees. All translations are recognized by Polish institutions. Send document online and receive free cost estimate within 15–30 minutes.',
   keywords: [
-    'sworn translation pricing',
-    'translation prices Kraków',
-    'certified translator cost',
-    'document translation price',
-    'online quote translation',
+    'sworn translation pricing Kraków',
+    'Ukrainian translator prices',
+    'document translation cost',
+    'online translation quote',
     'sworn translation rates',
+    'Ukrainian Polish translations',
   ],
   alternates: {
     canonical: `${siteConfig.urls.domain}/en/pricing`,
@@ -24,18 +24,18 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Sworn Translation Pricing | Professional Translator Kraków',
+    title: 'Sworn translation pricing for documents in Kraków | Professional translator',
     description:
-      'Transparent sworn translation prices in Kraków. Certificates, diplomas, documents from 80 PLN.',
+      'Sworn translator of Ukrainian language in Kraków performs official document translations from Ukrainian to Polish and vice versa at transparent rates.',
     url: `${siteConfig.urls.domain}/en/pricing`,
     type: 'website',
     locale: 'en_US',
     images: [
       {
-        url: `${siteConfig.urls.domain}/og?title=Sworn Translation Pricing&description=Transparent sworn translation prices in Kraków`,
+        url: `${siteConfig.urls.domain}/og?title=Sworn translation pricing for documents in Kraków&description=Sworn translator of Ukrainian language in Kraków`,
         width: 1200,
         height: 630,
-        alt: 'Sworn Translation Pricing',
+        alt: 'Sworn translation pricing for documents in Kraków',
       },
     ],
   },

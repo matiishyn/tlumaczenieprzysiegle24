@@ -5,15 +5,16 @@ import { getTranslations } from '@/lib/i18n';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Cennik tłumaczeń przysięgłych',
+  title: 'Cennik tłumaczeń przysięgłych dokumentów w Krakowie',
   description:
-    'Przejrzyste ceny tłumaczeń przysięgłych w Krakowie. Akty, dyplomy, świadectwa od 80 zł. Szybka wycena online.',
+    'Tłumacz przysięgły języka ukraińskiego w Krakowie wykonuje oficjalne tłumaczenia dokumentów z ukraińskiego na polski i odwrotnie według przejrzystych stawek. Koszt zależy od typu dokumentu i pilności, bez ukrytych opłat. Wszystkie tłumaczenia są uznawane przez polskie instytucje. Wyślij dokument online i otrzymaj bezpłatną wycenę w ciągu 15–30 minut.',
   keywords: [
-    'cennik tłumaczeń przysięgłych',
-    'ceny tłumacza przysięgłego Kraków',
+    'cennik tłumaczeń przysięgłych Kraków',
+    'ceny tłumacza ukraiński język',
     'koszt tłumaczenia dokumentów',
     'wycena tłumaczenia online',
     'tłumaczenia przysięgłe cena',
+    'tłumaczenia ukraiński polski',
   ],
   alternates: {
     canonical: `${siteConfig.urls.domain}/cennik`,
@@ -24,17 +25,17 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Cennik tłumaczeń przysięgłych | Tłumaczenia Przysięgłe Kraków',
+    title: 'Cennik tłumaczeń przysięgłych dokumentów w Krakowie | Profesjonalny tłumacz',
     description:
-      'Przejrzyste ceny tłumaczeń przysięgłych w Krakowie. Akty, dyplomy, świadectwa od 80 zł.',
+      'Tłumacz przysięgły języka ukraińskiego w Krakowie wykonuje oficjalne tłumaczenia dokumentów z ukraińskiego na polski i odwrotnie według przejrzystych stawek.',
     url: `${siteConfig.urls.domain}/cennik`,
     type: 'website',
     images: [
       {
-        url: `${siteConfig.urls.domain}/og?title=Cennik tłumaczeń przysięgłych&description=Przejrzyste ceny tłumaczeń przysięgłych w Krakowie`,
+        url: `${siteConfig.urls.domain}/og?title=Cennik tłumaczeń przysięgłych dokumentów w Krakowie&description=Tłumacz przysięgły języka ukraińskiego w Krakowie`,
         width: 1200,
         height: 630,
-        alt: 'Cennik tłumaczeń przysięgłych',
+        alt: 'Cennik tłumaczeń przysięgłych dokumentów w Krakowie',
       },
     ],
   },
