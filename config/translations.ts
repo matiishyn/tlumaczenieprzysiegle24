@@ -14,6 +14,15 @@ export const translations: Record<Locale, any> = {
       subtitle: 'Szybka wycena online • Odbiór w 24-48h • Certyfikowany tłumacz',
       cta: 'Wyślij dokument',
       ctaSecondary: 'Zobacz cennik',
+      features: {
+        deliveryTime: '24-48h',
+        deliveryLabel: 'Realizacja',
+        certification: 'Certyfikat',
+        certificationLabel: 'Lista MS',
+        location: 'Kraków',
+        locationLabel: 'Odbiór osobisty',
+      },
+      imageAlt: 'Profesjonalne spotkanie w biurze',
     },
     services: {
       title: 'Specjalizacje językowe',
@@ -129,6 +138,15 @@ export const translations: Record<Locale, any> = {
       subtitle: 'Fast online quote • 24-48h delivery • Certified translator',
       cta: 'Send document',
       ctaSecondary: 'View pricing',
+      features: {
+        deliveryTime: '24-48h',
+        deliveryLabel: 'Delivery',
+        certification: 'Certified',
+        certificationLabel: 'MoJ list',
+        location: 'Kraków',
+        locationLabel: 'Personal pickup',
+      },
+      imageAlt: 'Professional office meeting',
     },
     services: {
       title: 'Language specializations',
@@ -244,6 +262,15 @@ export const translations: Record<Locale, any> = {
       subtitle: 'Швидка оцінка онлайн • Готово за 24-48 год • Сертифікований перекладач',
       cta: 'Надіслати документ',
       ctaSecondary: 'Переглянути ціни',
+      features: {
+        deliveryTime: '24-48h',
+        deliveryLabel: 'Виконання',
+        certification: 'Сертифікат',
+        certificationLabel: 'Список МС',
+        location: 'Краків',
+        locationLabel: 'Особистий самовивіз',
+      },
+      imageAlt: 'Професійна зустріч в офісі',
     },
     services: {
       title: 'Мовні спеціалізації',

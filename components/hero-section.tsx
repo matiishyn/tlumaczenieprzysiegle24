@@ -42,9 +42,9 @@ export function HeroSection({ t, locale }: HeroSectionProps) {
                   <Clock className="h-5 w-5 text-blue-600" />
                 </div>
                 <div>
-                  <p className="font-medium text-slate-900">24-48h</p>
+                  <p className="font-medium text-slate-900">{t.hero.features.deliveryTime}</p>
                   <p className="text-sm text-slate-600">
-                    {locale === 'pl' ? 'Realizacja' : locale === 'en' ? 'Delivery' : 'Виконання'}
+                    {t.hero.features.deliveryLabel}
                   </p>
                 </div>
               </div>
@@ -55,10 +55,10 @@ export function HeroSection({ t, locale }: HeroSectionProps) {
                 </div>
                 <div>
                   <p className="font-medium text-slate-900">
-                    {locale === 'pl' ? 'Certyfikat' : locale === 'en' ? 'Certified' : 'Сертифікат'}
+                    {t.hero.features.certification}
                   </p>
                   <p className="text-sm text-slate-600">
-                    {locale === 'pl' ? 'Lista MS' : locale === 'en' ? 'MoJ list' : 'Список МС'}
+                    {t.hero.features.certificationLabel}
                   </p>
                 </div>
               </div>
@@ -69,10 +69,10 @@ export function HeroSection({ t, locale }: HeroSectionProps) {
                 </div>
                 <div>
                   <p className="font-medium text-slate-900">
-                    {locale === 'pl' ? 'Kraków' : locale === 'en' ? 'Kraków' : 'Краків'}
+                    {t.hero.features.location}
                   </p>
                   <p className="text-sm text-slate-600">
-                    {locale === 'pl' ? 'Odbiór osobisty' : locale === 'en' ? 'Personal pickup' : 'Особистий самовивіз'}
+                    {t.hero.features.locationLabel}
                   </p>
                 </div>
               </div>
@@ -83,7 +83,7 @@ export function HeroSection({ t, locale }: HeroSectionProps) {
             <div className="aspect-[4000/4578] rounded-2xl overflow-hidden">
               <Image
                 src="/anna.webp"
-                alt={locale === 'pl' ? 'Profesjonalne spotkanie w biurze' : locale === 'en' ? 'Professional office meeting' : 'Професійна зустріч в офісі'}
+                alt={t.hero.imageAlt}
                 fill
                 className="object-cover"
                 priority
