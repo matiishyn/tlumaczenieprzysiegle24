@@ -25,19 +25,6 @@ export function ServicesSection({ t, locale }: ServicesSectionProps) {
       ),
       flag: '🇺🇦',
     },
-    {
-      title: t.services.english.title,
-      description: t.services.english.description,
-      href: getLocalePath(
-        locale,
-        locale === 'pl'
-          ? '/uslugi/tlumaczenia-na-angielski'
-          : locale === 'en'
-            ? '/services/english-translations'
-            : '/posluhy/pereklad-na-anhliysku'
-      ),
-      flag: '🇬🇧',
-    },
   ];
 
   return (
@@ -54,7 +41,7 @@ export function ServicesSection({ t, locale }: ServicesSectionProps) {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 gap-6 max-w-2xl mx-auto">
           {services.map((service) => (
             <Card key={service.href} className="hover:shadow-lg transition-shadow">
               <CardHeader>

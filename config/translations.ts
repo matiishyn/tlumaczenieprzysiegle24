@@ -11,7 +11,7 @@ export const translations: Record<Locale, any> = {
     },
     hero: {
       title: 'Tłumaczenie przysięgłe Kraków',
-      subtitle: 'Profesjonalne tłumaczenia przysięgłe dokumentów z ukraińskiego na polski i z polskiego na ukraiński • Oficjalna pieczęć tłumacza przysięgłego • Tłumaczenia uznawane przez wszystkie polskie organy władzy, ZUS, Urząd Wojewódzki oraz konsulaty • Ceny od 40 zł/strona',
+      subtitle: 'Profesjonalne tłumaczenia przysięgłe z polskiego na ukraiński i z ukraińskiego na polski • Oficjalna pieczęć tłumacza przysięgłego TP/127/24 • Tłumaczenia uznawane przez wszystkie polskie organy władzy, ZUS, Urząd Wojewódzki oraz konsulaty • Ceny od 40 zł/strona',
       cta: 'Wyślij dokument',
       ctaSecondary: 'Zobacz cennik',
       features: {
@@ -25,14 +25,10 @@ export const translations: Record<Locale, any> = {
       imageAlt: 'Profesjonalne spotkanie w biurze',
     },
     services: {
-      title: 'Specjalizacje językowe',
+      title: 'Specjalizacja językowa',
       ukrainian: {
-        title: 'Tłumaczenia ukraińskie',
-        description: 'Profesjonalne tłumaczenia przysięgłe z polskiego na ukraiński i odwrotnie',
-      },
-      english: {
-        title: 'Tłumaczenia angielskie',
-        description: 'Certyfikowane tłumaczenia przysięgłe z polskiego na angielski i odwrotnie',
+        title: 'Tłumaczenia polsko-ukraińskie',
+        description: 'Profesjonalne tłumaczenia przysięgłe z polskiego na ukraiński i z ukraińskiego na polski',
       },
     },
     pricing: {
@@ -64,9 +60,9 @@ export const translations: Record<Locale, any> = {
     },
     about: {
       title: 'O tłumaczu',
-      mojEntry: 'Wpis na listę tłumaczy przysięgłych Ministerstwa Sprawiedliwości',
-      experience: 'Doświadczenie',
-      languages: 'Języki',
+      mojEntry: 'Wpis na listę tłumaczy przysięgłych Ministerstwa Sprawiedliwości TP/127/24',
+      experience: 'Specjalizacja w tłumaczeniach polsko-ukraińskich',
+      languages: 'Języki: polski ↔ ukraiński',
     },
     contact: {
       title: 'Kontakt',
@@ -89,12 +85,16 @@ export const translations: Record<Locale, any> = {
       title: 'Najczęściej zadawane pytania',
       items: [
         {
+          q: 'Jakie języki obsługuje tłumacz?',
+          a: 'Specjalizuję się w tłumaczeniach przysięgłych z polskiego na ukraiński i z ukraińskiego na polski. To są jedyne języki, które obsługuję.',
+        },
+        {
           q: 'Ile kosztuje tłumaczenie przysięgłe?',
           a: 'Cena zależy od rodzaju dokumentu i liczby stron. Sprawdź nasz cennik lub wyślij dokument do bezpłatnej wyceny.',
         },
         {
           q: 'Jak długo trwa tłumaczenie?',
-          a: 'Standardowy czas realizacji to 2-3 dni robocze. Oferujemy również usługę ekspresową 24h i 48h.',
+          a: 'Standardowy czas realizacji to 2-3 dni robocze. Oferujemy również usługę ekspresową do 24 godzin.',
         },
         {
           q: 'Czy mogę odebrać tłumaczenie osobiście?',
@@ -135,7 +135,7 @@ export const translations: Record<Locale, any> = {
     },
     hero: {
       title: 'Sworn Translation Kraków',
-      subtitle: 'Professional sworn translations of documents from Ukrainian to Polish and from Polish to Ukrainian • Official sworn translator seal • Translations recognized by all Polish authorities, ZUS, Voivodeship Office and consulates • Prices from 40 zł/page',
+      subtitle: 'Professional sworn translations from Polish to Ukrainian and from Ukrainian to Polish • Official sworn translator seal TP/127/24 • Translations recognized by all Polish authorities, ZUS, Voivodeship Office and consulates • Prices from 40 zł/page',
       cta: 'Send document',
       ctaSecondary: 'View pricing',
       features: {
@@ -149,14 +149,10 @@ export const translations: Record<Locale, any> = {
       imageAlt: 'Professional office meeting',
     },
     services: {
-      title: 'Language specializations',
+      title: 'Language specialization',
       ukrainian: {
-        title: 'Ukrainian translations',
-        description: 'Professional sworn translations from Polish to Ukrainian and vice versa',
-      },
-      english: {
-        title: 'English translations',
-        description: 'Certified sworn translations from Polish to English and vice versa',
+        title: 'Polish-Ukrainian translations',
+        description: 'Professional sworn translations from Polish to Ukrainian and from Ukrainian to Polish',
       },
     },
     pricing: {
@@ -188,9 +184,9 @@ export const translations: Record<Locale, any> = {
     },
     about: {
       title: 'About the translator',
-      mojEntry: 'Entry on the Ministry of Justice list of sworn translators',
-      experience: 'Experience',
-      languages: 'Languages',
+      mojEntry: 'Entry on the Ministry of Justice list of sworn translators TP/127/24',
+      experience: 'Specialization in Polish-Ukrainian translations',
+      languages: 'Languages: Polish ↔ Ukrainian',
     },
     contact: {
       title: 'Contact',
@@ -213,12 +209,16 @@ export const translations: Record<Locale, any> = {
       title: 'Frequently asked questions',
       items: [
         {
+          q: 'What languages does the translator work with?',
+          a: 'I specialize in sworn translations from Polish to Ukrainian and from Ukrainian to Polish. These are the only languages I work with.',
+        },
+        {
           q: 'How much does a sworn translation cost?',
           a: 'The price depends on the document type and number of pages. Check our pricing or send a document for a free quote.',
         },
         {
           q: 'How long does translation take?',
-          a: 'Standard turnaround time is 2-3 business days. We also offer express service 24h and 48h.',
+          a: 'Standard turnaround time is 2-3 business days. We also offer express service up to 24 hours.',
         },
         {
           q: 'Can I pick up the translation in person?',
@@ -273,14 +273,10 @@ export const translations: Record<Locale, any> = {
       imageAlt: 'Професійна зустріч в офісі',
     },
     services: {
-      title: 'Мовні спеціалізації',
+      title: 'Мовна спеціалізація',
       ukrainian: {
-        title: 'Українські переклади',
-        description: 'Професійні присяжні переклади з польської на українську і навпаки',
-      },
-      english: {
-        title: 'Англійські переклади',
-        description: 'Сертифіковані присяжні переклади з польської на англійську і навпаки',
+        title: 'Польсько-українські переклади',
+        description: 'Професійні присяжні переклади з польської на українську і з української на польську',
       },
     },
     pricing: {
@@ -312,9 +308,9 @@ export const translations: Record<Locale, any> = {
     },
     about: {
       title: 'Про перекладача',
-      mojEntry: 'Запис у списку присяжних перекладачів Міністерства юстиції',
-      experience: 'Досвід',
-      languages: 'Мови',
+      mojEntry: 'Запис у списку присяжних перекладачів Міністерства юстиції TP/127/24',
+      experience: 'Спеціалізація в польсько-українських перекладах',
+      languages: 'Мови: польська ↔ українська',
     },
     contact: {
       title: 'Контакт',
@@ -337,12 +333,16 @@ export const translations: Record<Locale, any> = {
       title: 'Часті запитання',
       items: [
         {
+          q: 'Які мови обслуговує перекладач?',
+          a: 'Я спеціалізуюся на присяжних перекладах з польської на українську і з української на польську. Це єдині мови, які я обслуговую.',
+        },
+        {
           q: 'Скільки коштує присяжний переклад?',
           a: 'Ціна залежить від типу документа та кількості сторінок. Перегляньте наш прайс або надішліть документ для безкоштовної оцінки.',
         },
         {
           q: 'Скільки часу займає переклад?',
-          a: 'Стандартний час виконання 2-3 робочі дні. Ми також пропонуємо експрес-послугу 24 і 48 годин.',
+          a: 'Стандартний час виконання 2-3 робочі дні. Ми також пропонуємо експрес-послугу до 24 годин.',
         },
         {
           q: 'Чи можу я забрати переклад особисто?',
