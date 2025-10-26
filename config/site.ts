@@ -11,7 +11,7 @@ export const siteConfig = {
       country: "Polska",
     },
     phone: "+48 575 544 093",
-    email: "kontakt@tlumaczenieprzysiegle24.pl",
+    email: "info@tlumaczenieprzysiegle24.pl",
     hours: "pon-pt 9:00–18:00",
     mojNumber: "TP/97/25",
     languagePairs: ["polski-ukraiński", "polski-angielski"],
