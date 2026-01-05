@@ -90,36 +90,6 @@ export function Breadcrumb({ locale, items = [] }: BreadcrumbProps) {
         en: 'Contact',
         uk: 'Контакт'
       },
-      'o-mnie': {
-        pl: 'O mnie',
-        en: 'About',
-        uk: 'Про мене'
-      },
-      'about': {
-        pl: 'O mnie',
-        en: 'About',
-        uk: 'Про мене'
-      },
-      'pro-mene': {
-        pl: 'O mnie',
-        en: 'About',
-        uk: 'Про мене'
-      },
-      'tlumaczenia-na-ukrainski': {
-        pl: 'Tłumaczenia na ukraiński',
-        en: 'Ukrainian Translations',
-        uk: 'Переклад на українську'
-      },
-      'pereklad-na-ukrainsku': {
-        pl: 'Tłumaczenia na ukraiński',
-        en: 'Ukrainian Translations',
-        uk: 'Переклад на українську'
-      },
-      'ukrainian-translations': {
-        pl: 'Tłumaczenia na ukraiński',
-        en: 'Ukrainian Translations',
-        uk: 'Переклад на українську'
-      },
       'tlumaczenia-na-angielski': {
         pl: 'Tłumaczenia na angielski',
         en: 'English Translations',

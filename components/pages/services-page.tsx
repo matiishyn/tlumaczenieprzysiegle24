@@ -14,32 +14,6 @@ interface ServicesPageProps {
 export function ServicesPage({ locale, t }: ServicesPageProps) {
   const services = [
     {
-      title: locale === 'pl' ? 'Tłumaczenia na ukraiński' :
-        locale === 'en' ? 'Ukrainian translations' :
-          'Українські переклади',
-      description: locale === 'pl' ? 'Profesjonalne tłumaczenia przysięgłe z polskiego na ukraiński i odwrotnie' :
-        locale === 'en' ? 'Professional sworn translations from Polish to Ukrainian and vice versa' :
-          'Професійні присяжні переклади з польської на українську і навпаки',
-      href: locale === 'pl' ? '/uslugi/tlumaczenia-na-ukrainski' :
-        locale === 'en' ? '/en/services/ukrainian-translations' :
-          '/uk/posluhy/pereklad-na-ukrainsku',
-      flag: '🇺🇦',
-      features: [
-        locale === 'pl' ? 'Dokumenty urzędowe i osobiste' :
-          locale === 'en' ? 'Official and personal documents' :
-            'Урядові та особисті документи',
-        locale === 'pl' ? 'Świadectwa i dyplomy' :
-          locale === 'en' ? 'Certificates and diplomas' :
-            'Свідоцтва та дипломи',
-        locale === 'pl' ? 'Dokumenty pracownicze' :
-          locale === 'en' ? 'Employment documents' :
-            'Документи з працевлаштування',
-        locale === 'pl' ? 'Umowy i kontrakty' :
-          locale === 'en' ? 'Agreements and contracts' :
-            'Договори та контракти',
-      ],
-    },
-    {
       title: locale === 'pl' ? 'Tłumaczenia na angielski' :
         locale === 'en' ? 'English translations' :
           'Англійські переклади',

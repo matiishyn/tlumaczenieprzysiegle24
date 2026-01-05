@@ -13,17 +13,17 @@ interface ServicesSectionProps {
 export function ServicesSection({ t, locale }: ServicesSectionProps) {
   const services = [
     {
-      title: t.services.ukrainian.title,
-      description: t.services.ukrainian.description,
+      title: t.services.english.title,
+      description: t.services.english.description,
       href: getLocalePath(
         locale,
         locale === 'pl'
-          ? '/uslugi/tlumaczenia-na-ukrainski'
+          ? '/uslugi/tlumaczenia-na-angielski'
           : locale === 'en'
-            ? '/services/ukrainian-translations'
-            : '/posluhy/pereklad-na-ukrainsku'
+            ? '/services/english-translations'
+            : '/posluhy/pereklad-na-anhliysku'
       ),
-      flag: '🇺🇦 🇵🇱',
+      flag: '🇬🇧 🇵🇱',
     },
   ];
 

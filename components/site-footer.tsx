@@ -16,7 +16,6 @@ export function SiteFooter({ locale, t }: SiteFooterProps) {
     { href: getLocalePath(locale, '/'), label: t.nav.home },
     { href: getLocalePath(locale, locale === 'pl' ? '/uslugi' : locale === 'en' ? '/services' : '/posluhy'), label: t.nav.services },
     { href: getLocalePath(locale, locale === 'pl' ? '/cennik' : locale === 'en' ? '/pricing' : '/tsiny'), label: t.nav.pricing },
-    { href: getLocalePath(locale, locale === 'pl' ? '/o-mnie' : locale === 'en' ? '/about' : '/pro-mene'), label: t.nav.about },
     { href: getLocalePath(locale, locale === 'pl' ? '/kontakt' : '/contact'), label: t.nav.contact },
   ];
 
@@ -39,10 +38,10 @@ export function SiteFooter({ locale, t }: SiteFooterProps) {
               <p>
                 {siteConfig.business.address.postalCode} {siteConfig.business.address.city}
               </p>
-              <p>
+              {/* <p>
                 {locale === 'pl' ? 'Lista tłumaczy przysięgłych MS' : locale === 'en' ? 'MoJ sworn translators list' : 'Список присяжних перекладачів МС'}:{' '}
                 <span className="text-white">{siteConfig.business.mojNumber}</span>
-              </p>
+              </p> */}
             </div>
           </div>
 

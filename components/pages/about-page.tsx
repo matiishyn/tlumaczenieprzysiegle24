@@ -68,12 +68,12 @@ export function AboutPage({ locale, t }: AboutPageProps) {
                           <h3 className="font-semibold text-slate-900 mb-2">
                             {t.about.mojEntry}
                           </h3>
-                          <p className="text-slate-600 text-sm">
+                          {/* <p className="text-slate-600 text-sm">
                             {locale === 'pl' ? 'Numer wpisu: ' :
                               locale === 'en' ? 'Entry number: ' :
                                 'Номер запису: '}
                             <span className="font-semibold">{siteConfig.business.mojNumber}</span>
-                          </p>
+                          </p> */}
                           <p className="text-slate-600 text-sm mt-1">
                             {locale === 'pl' ? 'Lista tłumaczy przysięgłych Ministerstwa Sprawiedliwości' :
                               locale === 'en' ? 'Ministry of Justice list of sworn translators' :
