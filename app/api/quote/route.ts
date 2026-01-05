@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
 
     const resend = new Resend(apiKey);
     
-    const { name, email, phone, message, locale } = await request.json();
+    const { name, email, phone, message, locale, files } = await request.json();
 
     // Validate required fields
     if (!name || !email || !phone || !message) {
@@ -26,12 +26,21 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Prepare attachments if files are provided
+    const attachments = files && files.length > 0 
+      ? files.map((file: { name: string; content: string; type: string }) => ({
+          filename: file.name,
+          content: file.content, // base64 string
+        }))
+      : [];
+
     // Email to business owner
     const { data, error } = await resend.emails.send({
       from: 'Wycena <noreply@tlumaczenieprzysiegle24.pl>',
       to: 'tlumaczenieprzysiegle24@gmail.com',
       replyTo: email,
       subject: `Nowe zapytanie o wycenę od ${name}`,
+      attachments: attachments.length > 0 ? attachments : undefined,
       html: `
         <!DOCTYPE html>
         <html>
@@ -73,6 +82,14 @@ export async function POST(request: NextRequest) {
                   <div class="label">🌐 Język strony:</div>
                   <div class="value">${locale === 'pl' ? 'Polski' : locale === 'en' ? 'English' : 'Українська'}</div>
                 </div>
+                ${files && files.length > 0 ? `
+                <div class="field">
+                  <div class="label">📎 Załączniki:</div>
+                  <div class="value">
+                    ${files.map((f: { name: string }) => `📄 ${f.name}`).join('<br>')}
+                  </div>
+                </div>
+                ` : ''}
               </div>
             </div>
           </body>

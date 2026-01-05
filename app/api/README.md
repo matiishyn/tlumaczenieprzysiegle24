@@ -37,9 +37,18 @@ Sends quote request email to business owner and confirmation email to customer.
   "email": "jan@example.com",
   "phone": "+48 123 456 789",
   "message": "Potrzebuję tłumaczenia aktu urodzenia...",
-  "locale": "pl"
+  "locale": "pl",
+  "files": [
+    {
+      "name": "document.pdf",
+      "content": "base64_encoded_content_here",
+      "type": "application/pdf"
+    }
+  ]
 }
 ```
+
+**Note:** Files are optional. If provided, they should be base64-encoded.
 
 **Response (Success):**
 ```json

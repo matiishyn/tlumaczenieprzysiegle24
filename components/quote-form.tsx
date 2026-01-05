@@ -15,9 +15,10 @@ import { useState } from 'react';
 interface QuoteFormProps {
   locale: Locale;
   t: any;
+  compact?: boolean; // If true, renders without Card wrapper and title
 }
 
-export function QuoteForm({ locale, t }: QuoteFormProps) {
+export function QuoteForm({ locale, t, compact = false }: QuoteFormProps) {
   const [files, setFiles] = useState<File[]>([]);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
@@ -35,12 +36,37 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
     }
   };
 
+  const convertFilesToBase64 = async (files: File[]): Promise<Array<{ name: string; content: string; type: string }>> => {
+    const filePromises = files.map(file => {
+      return new Promise<{ name: string; content: string; type: string }>((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          const base64 = reader.result as string;
+          // Remove data URL prefix to get pure base64
+          const base64Content = base64.split(',')[1];
+          resolve({
+            name: file.name,
+            content: base64Content,
+            type: file.type,
+          });
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    });
+    
+    return Promise.all(filePromises);
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
     try {
+      // Convert files to base64 if any
+      const filesData = files.length > 0 ? await convertFilesToBase64(files) : [];
+
       const response = await fetch('/api/quote', {
         method: 'POST',
         headers: {
@@ -49,6 +75,7 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
         body: JSON.stringify({
           ...formData,
           locale,
+          files: filesData,
         }),
       });
 
@@ -63,6 +90,9 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
           consent: false,
         });
         setFiles([]);
+        // Reset file input
+        const fileInput = document.getElementById('files') as HTMLInputElement;
+        if (fileInput) fileInput.value = '';
       } else {
         setSubmitStatus('error');
       }
@@ -83,31 +113,8 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
         : '/polityka-pryvatnosti'
   );
 
-  return (
-    <section
-      id={locale === 'pl' ? 'wycena' : locale === 'en' ? 'quote' : 'otsinka'}
-      className="py-20 bg-gradient-to-b from-blue-50 to-white"
-    >
-      <div className="container mx-auto px-4">
-        <div className="max-w-2xl mx-auto">
-          <Card className="shadow-xl">
-            <CardHeader className="text-center">
-              <CardTitle className="text-2xl md:text-3xl">
-                {locale === 'pl'
-                  ? 'Bezpłatna wycena online'
-                  : locale === 'en'
-                    ? 'Free online quote'
-                    : 'Безкоштовна оцінка онлайн'}
-              </CardTitle>
-              <CardDescription>
-                {locale === 'pl'
-                  ? 'Wyślij dokument i otrzymaj wycenę w ciągu kilku godzin'
-                  : locale === 'en'
-                    ? 'Send your document and receive a quote within hours'
-                    : 'Надішліть документ і отримайте оцінку протягом кількох годин'}
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
+  const formContent = (
+    <>
               {submitStatus === 'success' && (
                 <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
                   <p className="text-green-800 font-medium">
@@ -308,6 +315,41 @@ export function QuoteForm({ locale, t }: QuoteFormProps) {
                   </Button>
                 </div>
               </form>
+    </>
+  );
+
+  // Compact mode - return just the form content
+  if (compact) {
+    return formContent;
+  }
+
+  // Full mode - return with section wrapper and card
+  return (
+    <section
+      id={locale === 'pl' ? 'wycena' : locale === 'en' ? 'quote' : 'otsinka'}
+      className="py-20 bg-gradient-to-b from-blue-50 to-white"
+    >
+      <div className="container mx-auto px-4">
+        <div className="max-w-2xl mx-auto">
+          <Card className="shadow-xl">
+            <CardHeader className="text-center">
+              <CardTitle className="text-2xl md:text-3xl">
+                {locale === 'pl'
+                  ? 'Bezpłatna wycena online'
+                  : locale === 'en'
+                    ? 'Free online quote'
+                    : 'Безкоштовна оцінка онлайн'}
+              </CardTitle>
+              <CardDescription>
+                {locale === 'pl'
+                  ? 'Wyślij dokument i otrzymaj wycenę w ciągu kilku godzin'
+                  : locale === 'en'
+                    ? 'Send your document and receive a quote within hours'
+                    : 'Надішліть документ і отримайте оцінку протягом кількох годин'}
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              {formContent}
             </CardContent>
           </Card>
         </div>

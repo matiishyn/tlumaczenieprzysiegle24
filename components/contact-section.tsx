@@ -1,17 +1,10 @@
 'use client';
 
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Checkbox } from '@/components/ui/checkbox';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
+import { QuoteForm } from '@/components/quote-form';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Locale } from '@/config/locales';
 import { siteConfig } from '@/config/site';
-import { getLocalePath } from '@/lib/i18n';
 import { Clock, Mail, MapPin, Phone } from 'lucide-react';
-import Link from 'next/link';
-import { useState } from 'react';
 
 interface ContactSectionProps {
   t: any;
@@ -19,26 +12,6 @@ interface ContactSectionProps {
 }
 
 export function ContactSection({ t, locale }: ContactSectionProps) {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
-    consent: false,
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-  };
-
-  const privacyLink = getLocalePath(
-    locale,
-    locale === 'pl'
-      ? '/polityka-prywatnosci'
-      : locale === 'en'
-        ? '/privacy-policy'
-        : '/polityka-pryvatnosti'
-  );
 
   return (
     <section className="py-20 bg-slate-50">
@@ -130,97 +103,16 @@ export function ContactSection({ t, locale }: ContactSectionProps) {
             </div>
           </div>
 
-          <Card>
-            <CardHeader>
-              <CardTitle>{t.contact.form.title}</CardTitle>
-              <CardDescription>
-                {locale === 'pl'
-                  ? 'Skontaktuj się z nami, odpowiemy najszybciej jak to możliwe'
-                  : locale === 'en'
-                    ? 'Contact us, we will respond as soon as possible'
-                    : "Зв'яжіться з нами, ми відповімо якнайшвидше"}
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div className="space-y-2">
-                  <Label htmlFor="name">{t.contact.form.name}</Label>
-                  <Input
-                    id="name"
-                    value={formData.name}
-                    onChange={(e) =>
-                      setFormData({ ...formData, name: e.target.value })
-                    }
-                    required
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="email">{t.contact.form.email}</Label>
-                  <Input
-                    id="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={(e) =>
-                      setFormData({ ...formData, email: e.target.value })
-                    }
-                    required
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="phone">{t.contact.form.phone}</Label>
-                  <Input
-                    id="phone"
-                    type="tel"
-                    value={formData.phone}
-                    onChange={(e) =>
-                      setFormData({ ...formData, phone: e.target.value })
-                    }
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="message">{t.contact.form.message}</Label>
-                  <Textarea
-                    id="message"
-                    rows={4}
-                    value={formData.message}
-                    onChange={(e) =>
-                      setFormData({ ...formData, message: e.target.value })
-                    }
-                    required
-                  />
-                </div>
-
-                <div className="flex items-start space-x-2">
-                  <Checkbox
-                    id="consent"
-                    checked={formData.consent}
-                    onCheckedChange={(checked) =>
-                      setFormData({ ...formData, consent: checked as boolean })
-                    }
-                    required
-                  />
-                  <label
-                    htmlFor="consent"
-                    className="text-sm text-slate-600 leading-tight"
-                  >
-                    {t.contact.form.consent}{' '}
-                    <Link
-                      href={privacyLink}
-                      className="text-blue-600 hover:underline">
-                      {t.contact.form.privacyPolicy}
-                    </Link>
-                  </label>
-                </div>
-
-                <Button type="submit" className="w-full">
-                  {t.contact.form.send}
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
+          <div>
+            <Card>
+              <CardHeader>
+                <CardTitle>{t.contact.form.title}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <QuoteForm locale={locale} t={t} compact />
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </div>
     </section>
