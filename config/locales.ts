@@ -12,11 +12,6 @@ export const localeNames: Record<Locale, string> = {
 export const localeRoutes: Record<string, Record<Locale, string>> = {
   home: { pl: '/', en: '/en', uk: '/uk' },
   services: { pl: '/uslugi', en: '/en/services', uk: '/uk/posluhy' },
-  'services-english': {
-    pl: '/uslugi/tlumaczenia-na-angielski',
-    en: '/en/services/english-translations',
-    uk: '/uk/posluhy/pereklad-na-anhliysku'
-  },
   pricing: { pl: '/cennik', en: '/en/pricing', uk: '/uk/tsiny' },
   contact: { pl: '/kontakt', en: '/en/contact', uk: '/uk/kontakt' },
   privacy: {

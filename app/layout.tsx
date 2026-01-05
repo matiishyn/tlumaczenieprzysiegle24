@@ -14,12 +14,12 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.business.name}`,
   },
   description:
-    'Profesjonalne tłumaczenia przysięgłe w Krakowie. Certyfikowany tłumacz z wpisu MS. Szybka realizacja 24-48h. Odbiór osobisty lub kurier.',
+    'Profesjonalne tłumaczenia przysięgłe z ukraińskiego na polski w Krakowie. Certyfikowany tłumacz z wpisu MS. Szybka realizacja 24-48h. Odbiór osobisty lub kurier.',
   keywords: [
     'tłumaczenie przysięgłe Kraków',
     'tłumacz przysięgły Kraków',
     'tłumaczenia ukraińskie',
-    'tłumaczenia angielskie',
+    'tłumaczenia z ukraińskiego na polski',
     'tłumaczenia dokumentów Kraków',
     'apostille Kraków',
   ],
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.business.name,
     title: siteConfig.seo.mainKeyword,
     description:
-      'Profesjonalne tłumaczenia przysięgłe w Krakowie. Certyfikowany tłumacz z wpisu MS. Szybka realizacja 24-48h.',
+      'Profesjonalne tłumaczenia przysięgłe z ukraińskiego na polski w Krakowie. Certyfikowany tłumacz z wpisu MS. Szybka realizacja 24-48h.',
     images: [
       {
         url: `${siteConfig.urls.domain}/og?title=${encodeURIComponent(siteConfig.seo.mainKeyword)}&description=${encodeURIComponent('Profesjonalne tłumaczenia przysięgłe w Krakowie')}`,

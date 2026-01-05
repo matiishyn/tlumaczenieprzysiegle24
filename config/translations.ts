@@ -11,7 +11,7 @@ export const translations: Record<Locale, any> = {
     },
     hero: {
       title: 'Tłumaczenie przysięgłe Kraków',
-      subtitle: 'Profesjonalne tłumaczenia przysięgłe z polskiego na ukraiński i z ukraińskiego na polski • Oficjalna pieczęć tłumacza przysięgłego TP/127/24 • Tłumaczenia uznawane przez wszystkie polskie organy władzy, ZUS, Urząd Wojewódzki oraz konsulaty • Ceny od 40 zł/strona',
+      subtitle: 'Profesjonalne tłumaczenia przysięgłe z ukraińskiego na polski • Oficjalna pieczęć tłumacza przysięgłego TP/127/24 • Tłumaczenia uznawane przez wszystkie polskie organy władzy, ZUS, Urząd Wojewódzki oraz konsulaty • Ceny od 40 zł/strona',
       cta: 'Wyślij dokument',
       ctaSecondary: 'Zobacz cennik',
       features: {
@@ -27,12 +27,8 @@ export const translations: Record<Locale, any> = {
     services: {
       title: 'Specjalizacja językowa',
       ukrainian: {
-        title: 'Tłumaczenia polsko-ukraińskie',
-        description: 'Profesjonalne tłumaczenia przysięgłe z polskiego na ukraiński i z ukraińskiego na polski',
-      },
-      english: {
-        title: 'Tłumaczenia polsko-angielskie',
-        description: 'Profesjonalne tłumaczenia przysięgłe z polskiego na angielski i z angielskiego na polski',
+        title: 'Tłumaczenia z ukraińskiego na polski',
+        description: 'Profesjonalne tłumaczenia przysięgłe z ukraińskiego na polski',
       },
     },
     pricing: {
@@ -271,7 +267,7 @@ export const translations: Record<Locale, any> = {
     },
     hero: {
       title: 'Sworn Translation Kraków',
-      subtitle: 'Professional sworn translations from Polish to Ukrainian and from Ukrainian to Polish • Official sworn translator seal TP/127/24 • Translations recognized by all Polish authorities, ZUS, Voivodeship Office and consulates • Prices from 40 zł/page',
+      subtitle: 'Professional sworn translations from Ukrainian to Polish • Official sworn translator seal TP/127/24 • Translations recognized by all Polish authorities, ZUS, Voivodeship Office and consulates • Prices from 40 zł/page',
       cta: 'Send document',
       ctaSecondary: 'View pricing',
       features: {
@@ -287,12 +283,8 @@ export const translations: Record<Locale, any> = {
     services: {
       title: 'Language specialization',
       ukrainian: {
-        title: 'Polish-Ukrainian translations',
-        description: 'Professional sworn translations from Polish to Ukrainian and from Ukrainian to Polish',
-      },
-      english: {
-        title: 'Polish-English translations',
-        description: 'Professional sworn translations from Polish to English and from English to Polish',
+        title: 'Ukrainian to Polish translations',
+        description: 'Professional sworn translations from Ukrainian to Polish',
       },
     },
     pricing: {
@@ -531,7 +523,7 @@ export const translations: Record<Locale, any> = {
     },
     hero: {
       title: 'Присяжний переклад Краків',
-      subtitle: 'Професійні присяжні переклади документів з української на польську та з польської на українську • Офіційна печатка присяжного перекладача • Переклади визнаються усіма польськими органами влади, ZUS, Urząd Wojewódzki, а також консульствами • Ціни від 40 zł/сторінка',
+      subtitle: 'Професійні присяжні переклади документів з української на польську • Офіційна печатка присяжного перекладача • Переклади визнаються усіма польськими органами влади, ZUS, Urząd Wojewódzki, а також консульствами • Ціни від 40 zł/сторінка',
       cta: 'Надіслати документ',
       ctaSecondary: 'Переглянути ціни',
       features: {
@@ -547,12 +539,8 @@ export const translations: Record<Locale, any> = {
     services: {
       title: 'Мовна спеціалізація',
       ukrainian: {
-        title: 'Польсько-українські переклади',
-        description: 'Професійні присяжні переклади з польської на українську і з української на польську',
-      },
-      english: {
-        title: 'Польсько-англійські переклади',
-        description: 'Професійні присяжні переклади з польської на англійську і з англійської на польську',
+        title: 'Переклади з української на польську',
+        description: 'Професійні присяжні переклади з української на польську',
       },
     },
     pricing: {

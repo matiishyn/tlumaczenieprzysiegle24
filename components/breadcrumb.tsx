@@ -90,21 +90,6 @@ export function Breadcrumb({ locale, items = [] }: BreadcrumbProps) {
         en: 'Contact',
         uk: 'Контакт'
       },
-      'tlumaczenia-na-angielski': {
-        pl: 'Tłumaczenia na angielski',
-        en: 'English Translations',
-        uk: 'Переклад на англійську'
-      },
-      'pereklad-na-anhliysku': {
-        pl: 'Tłumaczenia na angielski',
-        en: 'English Translations',
-        uk: 'Переклад на англійську'
-      },
-      'english-translations': {
-        pl: 'Tłumaczenia na angielski',
-        en: 'English Translations',
-        uk: 'Переклад на англійську'
-      }
     };
     
     return names[segment]?.[locale] || segment;

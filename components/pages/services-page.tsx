@@ -14,29 +14,29 @@ interface ServicesPageProps {
 export function ServicesPage({ locale, t }: ServicesPageProps) {
   const services = [
     {
-      title: locale === 'pl' ? 'Tłumaczenia na angielski' :
-        locale === 'en' ? 'English translations' :
-          'Англійські переклади',
-      description: locale === 'pl' ? 'Certyfikowane tłumaczenia przysięgłe z polskiego na angielski i odwrotnie' :
-        locale === 'en' ? 'Certified sworn translations from Polish to English and vice versa' :
-          'Сертифіковані присяжні переклади з польської на англійську і навпаки',
-      href: locale === 'pl' ? '/uslugi/tlumaczenia-na-angielski' :
-        locale === 'en' ? '/en/services/english-translations' :
-          '/uk/posluhy/pereklad-na-anhliysku',
-      flag: '🇬🇧',
+      title: locale === 'pl' ? 'Tłumaczenia z ukraińskiego na polski' :
+        locale === 'en' ? 'Ukrainian to Polish translations' :
+          'Переклади з української на польську',
+      description: locale === 'pl' ? 'Profesjonalne tłumaczenia przysięgłe z ukraińskiego na polski' :
+        locale === 'en' ? 'Professional sworn translations from Ukrainian to Polish' :
+          'Професійні присяжні переклади з української на польську',
+      href: locale === 'pl' ? '/cennik' :
+        locale === 'en' ? '/en/pricing' :
+          '/uk/tsiny',
+      flag: '🇺🇦 → 🇵🇱',
       features: [
-        locale === 'pl' ? 'Dokumenty na studia za granicą' :
-          locale === 'en' ? 'Documents for studies abroad' :
-            'Документи для навчання за кордоном',
-        locale === 'pl' ? 'Dokumenty imigracyjne i wizowe' :
-          locale === 'en' ? 'Immigration and visa documents' :
-            'Іміграційні та візові документи',
-        locale === 'pl' ? 'Dokumenty biznesowe' :
-          locale === 'en' ? 'Business documents' :
-            'Бізнес-документи',
-        locale === 'pl' ? 'Apostille i legalizacja' :
-          locale === 'en' ? 'Apostille and legalization' :
-            'Апостиль та легалізація',
+        locale === 'pl' ? 'Dokumenty urzędowe i osobiste' :
+          locale === 'en' ? 'Official and personal documents' :
+            'Урядові та особисті документи',
+        locale === 'pl' ? 'Świadectwa i dyplomy' :
+          locale === 'en' ? 'Certificates and diplomas' :
+            'Свідоцтва та дипломи',
+        locale === 'pl' ? 'Dokumenty pracownicze' :
+          locale === 'en' ? 'Employment documents' :
+            'Документи з працевлаштування',
+        locale === 'pl' ? 'Akty stanu cywilnego' :
+          locale === 'en' ? 'Civil status documents' :
+            'Документи громадянського стану',
       ],
     },
   ];
@@ -65,7 +65,7 @@ export function ServicesPage({ locale, t }: ServicesPageProps) {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
+            <div className="grid grid-cols-1 gap-8 max-w-2xl mx-auto mb-12">
               {services.map((service) => (
                 <Card key={service.href} className="hover:shadow-lg transition-shadow">
                   <CardHeader>

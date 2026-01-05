@@ -11,7 +11,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routeKeys = [
     'home',
     'services',
-    'services-english',
     'pricing',
     'contact',
     'privacy',

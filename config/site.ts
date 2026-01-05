@@ -14,7 +14,7 @@ export const siteConfig = {
     email: "tlumaczenieprzysiegle24@gmail.com",
     hours: "pon-pt 9:00–18:00",
     mojNumber: "TP/97/25",
-    languagePairs: ["polski-ukraiński", "polski-angielski"],
+    languagePairs: ["ukraiński-polski"],
   },
 
   urls: {
