@@ -30,6 +30,10 @@ export const translations: Record<Locale, any> = {
         title: 'Tłumaczenia polsko-ukraińskie',
         description: 'Profesjonalne tłumaczenia przysięgłe z polskiego na ukraiński i z ukraińskiego na polski',
       },
+      english: {
+        title: 'Tłumaczenia polsko-angielskie',
+        description: 'Profesjonalne tłumaczenia przysięgłe z polskiego na angielski i z angielskiego na polski',
+      },
     },
     pricing: {
       title: 'Cennik tłumaczeń przysięgłych dokumentów w Krakowie',
@@ -286,6 +290,10 @@ export const translations: Record<Locale, any> = {
         title: 'Polish-Ukrainian translations',
         description: 'Professional sworn translations from Polish to Ukrainian and from Ukrainian to Polish',
       },
+      english: {
+        title: 'Polish-English translations',
+        description: 'Professional sworn translations from Polish to English and from English to Polish',
+      },
     },
     pricing: {
       title: 'Sworn translation pricing for documents in Kraków',
@@ -541,6 +549,10 @@ export const translations: Record<Locale, any> = {
       ukrainian: {
         title: 'Польсько-українські переклади',
         description: 'Професійні присяжні переклади з польської на українську і з української на польську',
+      },
+      english: {
+        title: 'Польсько-англійські переклади',
+        description: 'Професійні присяжні переклади з польської на англійську і з англійської на польську',
       },
     },
     pricing: {
