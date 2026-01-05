@@ -39,7 +39,6 @@ export function SiteFooter({ locale, t }: SiteFooterProps) {
               <p>
                 {siteConfig.business.address.postalCode} {siteConfig.business.address.city}
               </p>
-              <p className="pt-2">NIP: {siteConfig.business.nip}</p>
               <p>
                 {locale === 'pl' ? 'Lista tłumaczy przysięgłych MS' : locale === 'en' ? 'MoJ sworn translators list' : 'Список присяжних перекладачів МС'}:{' '}
                 <span className="text-white">{siteConfig.business.mojNumber}</span>

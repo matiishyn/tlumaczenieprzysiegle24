@@ -5,13 +5,13 @@ export const siteConfig = {
     ownerName: "Jan Kowalski",
     nip: "1234567890",
     address: {
-      street: "ul. Centralna 21",
-      postalCode: "31-000",
+      street: "Rydlówka 42B/28",
+      postalCode: "30-363",
       city: "Kraków",
       country: "Polska",
     },
-    phone: "+48 575 544 093",
-    email: "info@tlumaczenieprzysiegle24.pl",
+    phone: "+48 731 534 730",
+    email: "tlumaczenieprzysiegle24@gmail.com",
     hours: "pon-pt 9:00–18:00",
     mojNumber: "TP/97/25",
     languagePairs: ["polski-ukraiński", "polski-angielski"],
@@ -19,15 +19,15 @@ export const siteConfig = {
 
   urls: {
     domain: "https://tlumaczenieprzysiegle24.pl",
-    googleBusiness: "https://maps.google.com/?cid=PLACEHOLDER",
+    googleBusiness: "https://www.google.com/maps/search/?api=1&query=Rydlówka+42B%2F28%2C+30-363+Kraków",
     ceidg: "https://www.ceidg.gov.pl",
   },
 
   social: {
     facebook: "https://facebook.com/tlumaczenieprzysiegle24",
-    whatsapp: "+48575544093",
-    telegram: "+48575544093",
-    viber: "+48575544093",
+    whatsapp: "+48731534730",
+    telegram: "+48731534730",
+    viber: "+48731534730",
   },
 
   payments: {

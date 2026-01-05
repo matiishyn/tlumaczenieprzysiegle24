@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Kontakt',
   description:
-    `Skontaktuj się z tłumaczem przysięgłym w Krakowie. Tel: ${siteConfig.business.phone}, ul. Centralna 21. Odbiór osobisty lub kurier.`,
+    `Skontaktuj się z tłumaczem przysięgłym w Krakowie. Tel: ${siteConfig.business.phone}, Rydlówka 42B/28. Odbiór osobisty lub kurier.`,
   keywords: [
     'kontakt tłumacz przysięgły Kraków',
     'adres tłumacza przysięgłego',

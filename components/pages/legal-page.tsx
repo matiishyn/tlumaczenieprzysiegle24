@@ -26,7 +26,7 @@ export function LegalPage({ locale, t, type }: LegalPageProps) {
                   'Адміністратором персональних даних є'} {siteConfig.business.name},{' '}
               {siteConfig.business.address.street},{' '}
               {siteConfig.business.address.postalCode}{' '}
-              {siteConfig.business.address.city}, {locale === 'pl' ? 'NIP:' : locale === 'en' ? 'Tax ID:' : 'NIP:'} {siteConfig.business.nip}.
+              {siteConfig.business.address.city}.
             </p>
             <p className="text-slate-600">
               {locale === 'pl' ? 'Kontakt:' : locale === 'en' ? 'Contact:' : 'Контакт:'} {siteConfig.business.email}, {locale === 'pl' ? 'tel.' : locale === 'en' ? 'tel.' : 'тел.'} {siteConfig.business.phone}

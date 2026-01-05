@@ -116,7 +116,7 @@ export function ContactSection({ t, locale }: ContactSectionProps) {
 
             <div className="aspect-video rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.787!2d19.9368!3d50.0647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDAzJzUzLjAiTiAxOcKwNTYnMTIuNSJF!5e0!3m2!1sen!2spl!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1281.3682925584146!2d19.9306384675399!3d50.03503152538988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165c9fcbafc82f%3A0xcc1b23106e4e818c!2zUnlkbMOzd2thIDQyQi8yOCwgMzAtMzYzIEtyYWvDs3c!5e0!3m2!1sen!2spl!4v1767635637373!5m2!1sen!2spl"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -125,6 +125,8 @@ export function ContactSection({ t, locale }: ContactSectionProps) {
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Google Maps - Kraków"
               ></iframe>
+               
+              
             </div>
           </div>
 

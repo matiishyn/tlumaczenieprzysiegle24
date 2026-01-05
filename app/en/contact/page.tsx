@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    `Contact sworn translator in Kraków. Tel: ${siteConfig.business.phone}, ul. Centralna 21. Personal pickup or courier.`,
+    `Contact sworn translator in Kraków. Tel: ${siteConfig.business.phone}, Rydlówka 42B/28. Personal pickup or courier.`,
   alternates: {
     canonical: `${siteConfig.urls.domain}/en/contact`,
     languages: {
