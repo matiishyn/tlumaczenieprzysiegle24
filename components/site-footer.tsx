@@ -1,3 +1,5 @@
+'use client';
+
 import { Locale } from '@/config/locales';
 import { siteConfig } from '@/config/site';
 import { getLocalePath } from '@/lib/i18n';
@@ -11,6 +13,16 @@ interface SiteFooterProps {
 
 export function SiteFooter({ locale, t }: SiteFooterProps) {
   const currentYear = new Date().getFullYear();
+
+  const handlePhoneClick = () => {
+    if (typeof window !== 'undefined' && (window as any).dataLayer) {
+      (window as any).dataLayer.push({
+        event: 'phone_click',
+        phone_number: siteConfig.business.phone,
+        location: 'footer'
+      });
+    }
+  };
 
   const quickLinks = [
     { href: getLocalePath(locale, '/'), label: t.nav.home },
@@ -82,6 +94,7 @@ export function SiteFooter({ locale, t }: SiteFooterProps) {
                 <a
                   href={`tel:${siteConfig.business.phone}`}
                   className="hover:text-white transition-colors"
+                  onClick={handlePhoneClick}
                 >
                   {siteConfig.business.phone}
                 </a>

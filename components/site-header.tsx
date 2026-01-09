@@ -24,6 +24,16 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
     { href: getLocalePath(locale, locale === 'pl' ? '/kontakt' : locale === 'en' ? '/contact' : '/kontakt'), label: t.nav.contact },
   ];
 
+  const handlePhoneClick = () => {
+    if (typeof window !== 'undefined' && (window as any).dataLayer) {
+      (window as any).dataLayer.push({
+        event: 'phone_click',
+        phone_number: siteConfig.business.phone,
+        location: 'header'
+      });
+    }
+  };
+
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="container mx-auto px-4">
@@ -56,6 +66,7 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
             <a
               href={`tel:${siteConfig.business.phone}`}
               className="flex items-center text-sm text-slate-600 hover:text-slate-900"
+              onClick={handlePhoneClick}
             >
               <Phone className="mr-2 h-4 w-4" />
               {siteConfig.business.phone}
@@ -97,6 +108,7 @@ export function SiteHeader({ locale, t }: SiteHeaderProps) {
                 <a
                   href={`tel:${siteConfig.business.phone}`}
                   className="flex items-center text-sm text-slate-600"
+                  onClick={handlePhoneClick}
                 >
                   <Phone className="mr-2 h-4 w-4" />
                   {siteConfig.business.phone}

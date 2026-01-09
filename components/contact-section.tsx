@@ -12,6 +12,15 @@ interface ContactSectionProps {
 }
 
 export function ContactSection({ t, locale }: ContactSectionProps) {
+  const handlePhoneClick = () => {
+    if (typeof window !== 'undefined' && (window as any).dataLayer) {
+      (window as any).dataLayer.push({
+        event: 'phone_click',
+        phone_number: siteConfig.business.phone,
+        location: 'contact_section'
+      });
+    }
+  };
 
   return (
     <section className="py-20 bg-slate-50">
@@ -52,6 +61,7 @@ export function ContactSection({ t, locale }: ContactSectionProps) {
                 <a
                   href={`tel:${siteConfig.business.phone}`}
                   className="text-slate-600 hover:text-slate-900"
+                  onClick={handlePhoneClick}
                 >
                   {siteConfig.business.phone}
                 </a>
